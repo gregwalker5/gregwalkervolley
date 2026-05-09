@@ -135,6 +135,28 @@ section{padding:100px 0}
 .compare-them{color:var(--warm-gray);text-decoration:line-through}
 .compare-us{color:var(--gold);font-weight:700}
 
+/* ── MARKET COMPARISON ── */
+.market-section { background: var(--white); }
+.market-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; margin-top: 48px; }
+.market-card { background: var(--off-white); border-radius: 12px; border: 1px solid var(--light-gray); overflow: hidden; }
+.market-card-header { background: var(--navy); padding: 18px 24px; }
+.market-card-header h4 { font-size: 1.3rem; color: var(--white); }
+.market-card-header p { color: var(--text-light); font-size: .8rem; margin-top: 4px; }
+.comparison-table { width: 100%; border-collapse: collapse; }
+.comparison-table th { background: var(--navy-mid); color: var(--text-light); font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; padding: 10px 14px; text-align: left; }
+.comparison-table td { padding: 11px 14px; font-size: .84rem; color: var(--text); border-bottom: 1px solid var(--light-gray); }
+.comparison-table tr:last-child td { border-bottom: none; }
+.comparison-table tr.our-camp td { background: rgba(212,168,67,.12); font-weight: 700; color: var(--navy); }
+.comparison-table tr.our-camp td:last-child { color: var(--gold-dim); }
+.market-note { padding: 12px 24px; font-size: .78rem; color: var(--warm-gray); background: var(--white); border-top: 1px solid var(--light-gray); font-style: italic; }
+.market-callout { background: linear-gradient(135deg, var(--navy), var(--navy-light)); border-radius: 12px; padding: 36px 40px; margin-top: 40px; display: flex; gap: 32px; align-items: center; flex-wrap: wrap; }
+.market-callout p { color: var(--text-light); font-size: .95rem; line-height: 1.7; flex: 1; min-width: 260px; }
+.market-callout p strong { color: var(--gold); }
+
+@media(max-width: 900px) {
+  .market-callout { flex-direction: column; gap: 20px; padding: 24px; }
+}
+
 /* ── INCLUDED ── */
 .included-section{background:var(--off-white)}
 .included-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:48px}

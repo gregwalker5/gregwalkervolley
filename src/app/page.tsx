@@ -517,6 +517,180 @@ export default function Home() {
         </div>
       </section>
 
+      {/* MARKET COMPARISON */}
+      <section className="market-section" id="market-comparison">
+        <div className="container">
+          <span className="section-label">Market Comparison</span>
+          <h2 className="section-title">The Best Deal in Every Market</h2>
+          <p className="section-subtitle">
+            We looked at what other local camps charge. Then we looked at what they deliver. The math speaks for itself.
+          </p>
+
+          <div className="market-grid">
+            {/* Charlotte / Matthews, NC */}
+            <div className="market-card reveal">
+              <div className="market-card-header">
+                <h4>Charlotte / Matthews, NC</h4>
+                <p>Covenant Day School &amp; Carmel Christian</p>
+              </div>
+              <table className="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Camp</th>
+                    <th>Format</th>
+                    <th>Hours</th>
+                    <th>Price</th>
+                    <th>$/hr</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>CUVC Skill Camp</td>
+                    <td>Half-day</td>
+                    <td>9am–12pm, 1 day</td>
+                    <td>~$150</td>
+                    <td>~$50/hr</td>
+                  </tr>
+                  <tr>
+                    <td>Nike VB Camp (area)</td>
+                    <td>Full-day</td>
+                    <td>4-day</td>
+                    <td>$399</td>
+                    <td>~$16.60/hr</td>
+                  </tr>
+                  <tr className="our-camp">
+                    <td>Greg Walker Volleyball</td>
+                    <td>Full-day</td>
+                    <td>9am–4pm, 4-day</td>
+                    <td>$325</td>
+                    <td>$13.54/hr</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div className="market-note">
+                Plus: no travel costs for families — we come to your school.<br />
+                <span style={{ marginTop: '4px', display: 'block' }}>Prices sourced from public registration pages. Subject to change.</span>
+              </div>
+            </div>
+
+            {/* Fort Myers, FL */}
+            <div className="market-card reveal">
+              <div className="market-card-header">
+                <h4>Fort Myers, FL</h4>
+                <p>Bishop Verot High School</p>
+              </div>
+              <table className="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Camp</th>
+                    <th>Format</th>
+                    <th>Hours</th>
+                    <th>Price</th>
+                    <th>$/hr</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Florida Conquer VB</td>
+                    <td>Half-day</td>
+                    <td>8am–12pm, 5 days</td>
+                    <td>$250</td>
+                    <td>~$12.50/hr</td>
+                  </tr>
+                  <tr>
+                    <td>Florida Conquer VB</td>
+                    <td>Full-day</td>
+                    <td>8am–5pm, 5 days</td>
+                    <td>$400</td>
+                    <td>~$11/hr</td>
+                  </tr>
+                  <tr className="our-camp">
+                    <td>Greg Walker Volleyball</td>
+                    <td>Full-day</td>
+                    <td>9am–4pm, 4-day</td>
+                    <td>$325</td>
+                    <td>$13.54/hr</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div className="market-note">
+                Plus: no travel costs for families — we come to your school.<br />
+                <span style={{ marginTop: '4px', display: 'block' }}>Prices sourced from public registration pages. Subject to change.</span>
+              </div>
+            </div>
+
+            {/* Nashville / Middle Tennessee */}
+            <div className="market-card reveal">
+              <div className="market-card-header">
+                <h4>Nashville / Middle Tennessee</h4>
+                <p>Green Hill High School</p>
+              </div>
+              <table className="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Camp</th>
+                    <th>Format</th>
+                    <th>Hours</th>
+                    <th>Price</th>
+                    <th>$/hr</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Mid State Youth Sports</td>
+                    <td>Half-day</td>
+                    <td>9am–1pm, 4-day</td>
+                    <td>$100</td>
+                    <td>~$6.25/hr</td>
+                  </tr>
+                  <tr>
+                    <td>Nike VB Camp (Nashville)</td>
+                    <td>Full-day</td>
+                    <td>4-day</td>
+                    <td>$399</td>
+                    <td>~$16.60/hr</td>
+                  </tr>
+                  <tr>
+                    <td>Vanderbilt Team Camp</td>
+                    <td>Full-day</td>
+                    <td>Multi-day</td>
+                    <td>$250+</td>
+                    <td>~$15+/hr</td>
+                  </tr>
+                  <tr className="our-camp">
+                    <td>Greg Walker Volleyball</td>
+                    <td>Full-day</td>
+                    <td>9am–4pm, 4-day</td>
+                    <td>$325</td>
+                    <td>$13.54/hr</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div className="market-note">
+                Plus: no travel costs for families — we come to your school.<br />
+                <span style={{ marginTop: '4px', display: 'block' }}>Prices sourced from public registration pages. Subject to change.</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Bottom callout */}
+          <div className="market-callout reveal">
+            <p>
+              Every camp listed above uses assistant coaches or local staff.{' '}
+              <strong>Greg Walker Volleyball brings a NCAA Division III Head Coach and USA National Team Coach directly to your gym</strong>{' '}
+              — at a lower per-hour cost than most options in your area.
+            </p>
+            <a
+              href="mailto:gregwalkervolley@gmail.com?subject=Camp Registration"
+              className="btn btn-primary"
+              style={{ whiteSpace: 'nowrap', flexShrink: 0 }}
+            >
+              Reserve Your Spot →
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* INCLUDED */}
       <section className="included-section">
         <div className="container">
