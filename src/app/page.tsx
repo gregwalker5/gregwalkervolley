@@ -751,9 +751,9 @@ export default function Home() {
                 <tr>
                   <td>Nike VB Camp – Smith College</td>
                   <td>9am – 4pm</td>
-                  <td>Multi-day</td>
-                  <td>$399+</td>
-                  <td>~$16.60+/hr</td>
+                  <td>4-day</td>
+                  <td>$534</td>
+                  <td>~$19.07/hr</td>
                 </tr>
                 <tr className="our-camp">
                   <td>✓ Greg Walker Volleyball</td>

@@ -93,7 +93,7 @@ export default function DeerfieldCamp() {
                   <div style={{ fontSize: '.72rem', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color: '#9A958E', marginBottom: 10 }}>vs. Local Alternatives</div>
                   {[
                     { name: 'PV Juniors (1 evening session)', price: '~$40–60', strike: true },
-                    { name: 'Nike VB Camp – Smith College', price: '$399+', strike: true },
+                    { name: 'Nike VB Camp – Smith College', price: '$534', strike: true },
                     { name: 'Greg Walker Volleyball', price: '$350', strike: false },
                   ].map((c, i) => (
                     <div key={i} style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 0', borderBottom: i < 2 ? '1px solid rgba(255,255,255,.06)' : 'none' }}>
@@ -101,7 +101,7 @@ export default function DeerfieldCamp() {
                       <span style={{ color: c.strike ? '#9A958E' : '#D4A843', fontWeight: 700, fontSize: '.85rem', textDecoration: c.strike ? 'line-through' : 'none' }}>{c.price}</span>
                     </div>
                   ))}
-                  <div style={{ fontSize: '.74rem', color: '#9A958E', marginTop: 8, fontStyle: 'italic' }}>PV Juniors = drop-in evening clinics, local coaches. Nike @ Smith College = same campus as Coach Walker — but $74 more.</div>
+                  <div style={{ fontSize: '.74rem', color: '#9A958E', marginTop: 8, fontStyle: 'italic' }}>PV Juniors = drop-in evening clinics, local coaches. Nike @ Smith College = same campus as Coach Walker — but $184 more.</div>
                 </div>
 
                 <div style={{ margin: '20px 0 0', borderTop: '1px solid rgba(255,255,255,.08)', paddingTop: 16 }}>
