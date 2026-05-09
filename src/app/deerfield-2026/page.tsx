@@ -82,10 +82,10 @@ export default function DeerfieldCamp() {
             <div style={{ background: '#0C1B2A', borderRadius: 12, padding: '28px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', border: '2px solid #D4A843' }}>
               <div>
                 <div style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: '#D4A843', marginBottom: 12 }}>Camp Investment</div>
-                <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '5rem', color: '#D4A843', lineHeight: 1 }}>$325</div>
+                <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '5rem', color: '#D4A843', lineHeight: 1 }}>$350</div>
                 <div style={{ color: '#C8C4BE', fontSize: '.9rem', marginTop: 6 }}>per athlete · 4-day camp</div>
                 <div style={{ display: 'inline-block', background: 'rgba(212,168,67,.15)', color: '#E8C96A', padding: '6px 14px', borderRadius: 50, fontSize: '.8rem', fontWeight: 600, marginTop: 14 }}>
-                  28 hours · $13.54/hr
+                  28 hours · $15.00/hr
                 </div>
 
                 {/* Local comparison */}
@@ -94,7 +94,7 @@ export default function DeerfieldCamp() {
                   {[
                     { name: 'PV Juniors (1 evening session)', price: '~$40–60', strike: true },
                     { name: 'Nike VB Camp – Smith College', price: '$399+', strike: true },
-                    { name: 'Greg Walker Volleyball', price: '$325', strike: false },
+                    { name: 'Greg Walker Volleyball', price: '$350', strike: false },
                   ].map((c, i) => (
                     <div key={i} style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 0', borderBottom: i < 2 ? '1px solid rgba(255,255,255,.06)' : 'none' }}>
                       <span style={{ color: c.strike ? '#9A958E' : '#E8C96A', fontSize: '.82rem', fontWeight: c.strike ? 400 : 700, textDecoration: c.strike ? 'line-through' : 'none' }}>{c.name}</span>

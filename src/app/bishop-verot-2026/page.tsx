@@ -85,10 +85,10 @@ export default function BishopVerotCamp() {
             <div style={{ background: '#0C1B2A', borderRadius: 12, padding: '28px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', border: '2px solid #D4A843' }}>
               <div>
                 <div style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: '#D4A843', marginBottom: 12 }}>Camp Investment</div>
-                <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '5rem', color: '#D4A843', lineHeight: 1 }}>$275</div>
+                <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '5rem', color: '#D4A843', lineHeight: 1 }}>$300</div>
                 <div style={{ color: '#C8C4BE', fontSize: '.9rem', marginTop: 6 }}>per athlete · 3-day camp</div>
                 <div style={{ display: 'inline-block', background: 'rgba(212,168,67,.15)', color: '#E8C96A', padding: '6px 14px', borderRadius: 50, fontSize: '.8rem', fontWeight: 600, marginTop: 14 }}>
-                  21 hours · $13.10/hr
+                  21 hours · $14.29/hr
                 </div>
 
                 {/* Competitor comparison */}
@@ -97,7 +97,7 @@ export default function BishopVerotCamp() {
                   {[
                     { name: 'Florida Conquer VB (half-day)', price: '$250', hours: '4 hrs/day', strike: true },
                     { name: 'Florida Conquer VB (full-day)', price: '$400', hours: '9 hrs/day', strike: true },
-                    { name: 'Greg Walker Volleyball', price: '$275', hours: '7 hrs/day', strike: false },
+                    { name: 'Greg Walker Volleyball', price: '$300', hours: '7 hrs/day', strike: false },
                   ].map((c, i) => (
                     <div key={i} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '8px 0', borderBottom: i < 2 ? '1px solid rgba(255,255,255,.06)' : 'none' }}>
                       <span style={{ color: c.strike ? '#9A958E' : '#E8C96A', fontSize: '.82rem', fontWeight: c.strike ? 400 : 700, textDecoration: c.strike ? 'line-through' : 'none' }}>{c.name}</span>
