@@ -409,6 +409,39 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Deerfield Academy */}
+            <div className="camp-card reveal">
+              <div className="camp-card-header">
+                <span className="camp-type">Satellite Camp</span>
+                <h4>Deerfield Academy</h4>
+                <span className="camp-loc">📍 Deerfield, MA</span>
+              </div>
+              <div className="camp-card-body">
+                <div className="camp-detail">
+                  <span className="detail-label">Dates</span>
+                  <span className="detail-value">TBA</span>
+                </div>
+                <div className="camp-detail">
+                  <span className="detail-label">Time</span>
+                  <span className="detail-value">9 AM – 4 PM</span>
+                </div>
+                <div className="camp-detail">
+                  <span className="detail-label">Ages</span>
+                  <span className="detail-value">All Levels</span>
+                </div>
+                <div className="camp-detail">
+                  <span className="detail-label">Status</span>
+                  <span className="camp-status status-open">Open</span>
+                </div>
+                <a
+                  href="mailto:gregwalkervolley@gmail.com?subject=Deerfield Academy Camp Registration"
+                  className="btn btn-primary"
+                >
+                  Register Now →
+                </a>
+              </div>
+            </div>
+
             {/* Host Your School */}
             <div className="camp-card camp-dashed reveal">
               <div className="camp-card-header mid">
