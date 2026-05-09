@@ -717,6 +717,58 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Market 4: Western MA / Deerfield */}
+          <div className="market-card reveal">
+            <div className="market-card-header">
+              <h4>Western Massachusetts</h4>
+              <p>Deerfield Academy · Pioneer Valley region</p>
+            </div>
+            <table className="comparison-table">
+              <thead>
+                <tr>
+                  <th>Who 🏕️</th>
+                  <th>Hours ⏰</th>
+                  <th>Days 📅</th>
+                  <th>Price 💰</th>
+                  <th>Per Hour ⚡</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>PV Juniors (Beginner)</td>
+                  <td>5:00–6:30pm</td>
+                  <td>1 session</td>
+                  <td>~$30–$40</td>
+                  <td>~$20–$27/hr</td>
+                </tr>
+                <tr>
+                  <td>PV Juniors (Intermediate/Advanced)</td>
+                  <td>6:30–9:00pm</td>
+                  <td>1 session</td>
+                  <td>~$40–$60</td>
+                  <td>~$16–$24/hr</td>
+                </tr>
+                <tr>
+                  <td>Nike VB Camp – Smith College</td>
+                  <td>9am – 4pm</td>
+                  <td>Multi-day</td>
+                  <td>$399+</td>
+                  <td>~$16.60+/hr</td>
+                </tr>
+                <tr className="our-camp">
+                  <td>✓ Greg Walker Volleyball</td>
+                  <td>9am – 4pm</td>
+                  <td>4 days</td>
+                  <td>$325</td>
+                  <td>$13.54/hr</td>
+                </tr>
+              </tbody>
+            </table>
+            <div className="market-note">
+              PV Juniors clinics are drop-in evening sessions (1.5–2.5 hrs each) run by local club coaches out of South Deerfield and Springfield. Greg's camp is 28 hrs of full-day instruction at Deerfield Academy — led by a USA National Team Head Coach. Prices from public registration pages.
+            </div>
+          </div>
+
           {/* Bottom callout */}
           <div className="market-callout reveal">
             <p>
