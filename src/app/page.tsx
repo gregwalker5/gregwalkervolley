@@ -51,7 +51,7 @@ export default function Home() {
             Greg Walker <span className="accent">Volley</span>
           </a>
           <ul className="nav-links">
-            <li><a href="#camps">2025 Camps</a></li>
+            <li><a href="#camps">2026 Camps</a></li>
             <li><a href="#satellite">Satellite Training</a></li>
             <li><a href="#pricing">Pricing</a></li>
             <li><a href="#about">About</a></li>
@@ -76,7 +76,7 @@ export default function Home() {
 
       {/* MOBILE MENU */}
       <div className={`mobile-menu${mobileMenuOpen ? ' open' : ''}`}>
-        <a href="#camps" onClick={closeMobileMenu}>2025 Camps</a>
+        <a href="#camps" onClick={closeMobileMenu}>2026 Camps</a>
         <a href="#satellite" onClick={closeMobileMenu}>Satellite Training</a>
         <a href="#pricing" onClick={closeMobileMenu}>Pricing</a>
         <a href="#about" onClick={closeMobileMenu}>About</a>
@@ -90,7 +90,7 @@ export default function Home() {
         <div className="container">
           <div className="hero-content">
             <div className="hero-badge">
-              <span className="dot"></span> Summer 2025 Camps — Spots Filling Fast
+              <span className="dot"></span> Summer 2026 Camps — Spots Filling Fast
             </div>
             <h1>
               Train Like a <span className="gold">Champion.</span>
@@ -101,7 +101,7 @@ export default function Home() {
               championship-level training directly to your gym — or join us at Smith College.
             </p>
             <div className="hero-actions">
-              <a href="#camps" className="btn btn-primary">View 2025 Camps →</a>
+              <a href="#camps" className="btn btn-primary">View 2026 Camps →</a>
               <a
                 href="mailto:gregwalkervolley@gmail.com?subject=Satellite Camp Inquiry"
                 className="btn btn-outline"
@@ -247,7 +247,7 @@ export default function Home() {
       {/* CAMPS */}
       <section className="camps-section" id="camps">
         <div className="container">
-          <span className="section-label">Summer 2025 Schedule</span>
+          <span className="section-label">Summer 2026 Schedule</span>
           <h2 className="section-title">Confirmed Camp Locations</h2>
           <p className="section-subtitle">
             Spots are limited at each location. Register early to secure your place.
@@ -1040,7 +1040,7 @@ export default function Home() {
           </h2>
           <p>
             Whether you want to host a satellite camp or register an athlete — let&apos;s talk.
-            Spots for summer 2025 are limited.
+            Spots for summer 2026 are limited.
           </p>
           <div className="cta-actions">
             <a
@@ -1060,7 +1060,7 @@ export default function Home() {
       <footer>
         <div className="container">
           <span className="copyright">
-            © 2025 Creative Performance Consulting LLC. All rights reserved.
+            © 2026 Creative Performance Consulting LLC. All rights reserved.
           </span>
           <div className="footer-links">
             <a href="https://www.gregwalkervolley.com/camp-director">About</a>
