@@ -569,40 +569,46 @@ export default function Home() {
               <table className="comparison-table">
                 <thead>
                   <tr>
-                    <th>Camp</th>
-                    <th>Format</th>
-                    <th>Hours</th>
-                    <th>Price</th>
-                    <th>$/hr</th>
+                    <th>Who 🏕️</th>
+                    <th>Hours ⏰</th>
+                    <th>Days 📅</th>
+                    <th>Price 💰</th>
+                    <th>Per Hour ⚡</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>CUVC Skill Camp</td>
-                    <td>Half-day</td>
-                    <td>9am–12pm, 1 day</td>
-                    <td>~$150</td>
+                    <td>9am – 12pm</td>
+                    <td>1 day</td>
+                    <td><strong>~$150</strong></td>
                     <td>~$50/hr</td>
                   </tr>
                   <tr>
-                    <td>Nike VB Camp (area)</td>
-                    <td>Full-day</td>
-                    <td>4-day</td>
-                    <td>$399</td>
+                    <td>CUVC All-Skills Camp</td>
+                    <td>9am – 12pm</td>
+                    <td>3 days</td>
+                    <td><strong>~$275</strong></td>
+                    <td>~$30/hr</td>
+                  </tr>
+                  <tr>
+                    <td>Nike VB Camp (area school)</td>
+                    <td>9am – 4pm</td>
+                    <td>4 days</td>
+                    <td><strong>$399</strong></td>
                     <td>~$16.60/hr</td>
                   </tr>
                   <tr className="our-camp">
-                    <td>Greg Walker Volleyball</td>
-                    <td>Full-day</td>
-                    <td>9am–4pm, 4-day</td>
-                    <td>$325</td>
+                    <td>✓ Greg Walker Volleyball</td>
+                    <td>9am – 4pm</td>
+                    <td>4 days</td>
+                    <td><strong>$325</strong></td>
                     <td>$13.54/hr</td>
                   </tr>
                 </tbody>
               </table>
               <div className="market-note">
-                Plus: no travel costs for families — we come to your school.<br />
-                <span style={{ marginTop: '4px', display: 'block' }}>Prices sourced from public registration pages. Subject to change.</span>
+                CUVC = Carolina Union Volleyball Club (Matthews, NC). Prices from public registration pages.
               </div>
             </div>
 
@@ -615,40 +621,46 @@ export default function Home() {
               <table className="comparison-table">
                 <thead>
                   <tr>
-                    <th>Camp</th>
-                    <th>Format</th>
-                    <th>Hours</th>
-                    <th>Price</th>
-                    <th>$/hr</th>
+                    <th>Who 🏕️</th>
+                    <th>Hours ⏰</th>
+                    <th>Days 📅</th>
+                    <th>Price 💰</th>
+                    <th>Per Hour ⚡</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>Florida Conquer VB</td>
-                    <td>Half-day</td>
-                    <td>8am–12pm, 5 days</td>
-                    <td>$250</td>
-                    <td>~$12.50/hr</td>
+                    <td>8am – 12pm</td>
+                    <td>5 days</td>
+                    <td><strong>$250</strong></td>
+                    <td>~$10/hr</td>
                   </tr>
                   <tr>
                     <td>Florida Conquer VB</td>
-                    <td>Full-day</td>
-                    <td>8am–5pm, 5 days</td>
-                    <td>$400</td>
+                    <td>8am – 5pm</td>
+                    <td>5 days</td>
+                    <td><strong>$400</strong></td>
                     <td>~$11/hr</td>
                   </tr>
+                  <tr>
+                    <td>FGVA (Florida Gulfside)</td>
+                    <td>9am – 4pm</td>
+                    <td>4 days</td>
+                    <td><strong>~$350+</strong></td>
+                    <td>~$14.50+/hr</td>
+                  </tr>
                   <tr className="our-camp">
-                    <td>Greg Walker Volleyball</td>
-                    <td>Full-day</td>
-                    <td>9am–4pm, 4-day</td>
-                    <td>$325</td>
+                    <td>✓ Greg Walker Volleyball</td>
+                    <td>9am – 4pm</td>
+                    <td>4 days</td>
+                    <td><strong>$325</strong></td>
                     <td>$13.54/hr</td>
                   </tr>
                 </tbody>
               </table>
               <div className="market-note">
-                Plus: no travel costs for families — we come to your school.<br />
-                <span style={{ marginTop: '4px', display: 'block' }}>Prices sourced from public registration pages. Subject to change.</span>
+                Florida Conquer VB and FGVA are local club programs. Greg&apos;s camp brings a Team USA + NCAA Head Coach directly to Bishop Verot — no travel required.
               </div>
             </div>
 
@@ -661,47 +673,46 @@ export default function Home() {
               <table className="comparison-table">
                 <thead>
                   <tr>
-                    <th>Camp</th>
-                    <th>Format</th>
-                    <th>Hours</th>
-                    <th>Price</th>
-                    <th>$/hr</th>
+                    <th>Who 🏕️</th>
+                    <th>Hours ⏰</th>
+                    <th>Days 📅</th>
+                    <th>Price 💰</th>
+                    <th>Per Hour ⚡</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>Mid State Youth Sports</td>
-                    <td>Half-day</td>
-                    <td>9am–1pm, 4-day</td>
-                    <td>$100</td>
+                    <td>9am – 1pm</td>
+                    <td>4 days</td>
+                    <td><strong>$100</strong></td>
                     <td>~$6.25/hr</td>
                   </tr>
                   <tr>
-                    <td>Nike VB Camp (Nashville)</td>
-                    <td>Full-day</td>
-                    <td>4-day</td>
-                    <td>$399</td>
+                    <td>Nike VB Camp – Nashville</td>
+                    <td>9am – 4pm</td>
+                    <td>4 days</td>
+                    <td><strong>$399</strong></td>
                     <td>~$16.60/hr</td>
                   </tr>
                   <tr>
                     <td>Vanderbilt Team Camp</td>
-                    <td>Full-day</td>
+                    <td>Full day</td>
                     <td>Multi-day</td>
-                    <td>$250+</td>
+                    <td><strong>$250+</strong></td>
                     <td>~$15+/hr</td>
                   </tr>
                   <tr className="our-camp">
-                    <td>Greg Walker Volleyball</td>
-                    <td>Full-day</td>
-                    <td>9am–4pm, 4-day</td>
-                    <td>$325</td>
+                    <td>✓ Greg Walker Volleyball</td>
+                    <td>9am – 4pm</td>
+                    <td>4 days</td>
+                    <td><strong>$325</strong></td>
                     <td>$13.54/hr</td>
                   </tr>
                 </tbody>
               </table>
               <div className="market-note">
-                Plus: no travel costs for families — we come to your school.<br />
-                <span style={{ marginTop: '4px', display: 'block' }}>Prices sourced from public registration pages. Subject to change.</span>
+                Mid State offers beginner-level programming. Nike and Vanderbilt camps are run by college assistants. Greg Walker is the head coach at every session.
               </div>
             </div>
           </div>
