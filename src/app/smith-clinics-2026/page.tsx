@@ -59,7 +59,7 @@ export default function SmithClinics() {
                 { num: '01', date: 'Sunday, Aug 2', time: '9:00 – 12:00 PM', focus: 'Passing & Defense' },
                 { num: '02', date: 'Sunday, Aug 9', time: '9:00 – 12:00 PM', focus: 'Setting & Offense' },
                 { num: '03', date: 'Sunday, Aug 16', time: '9:00 – 12:00 PM', focus: 'Attacking & Systems' },
-                { num: '04', date: 'Sunday, Aug 24', time: '9:00 – 12:00 PM', focus: 'Live Play & Competition' },
+                { num: '04', date: 'Sunday, Aug 23', time: '9:00 – 12:00 PM', focus: 'Live Play & Competition' },
               ].map((s, i) => (
                 <div key={i} style={{ background: '#fff', borderRadius: 12, border: '1px solid #E5E1DC', overflow: 'hidden', textAlign: 'center' }}>
                   <div style={{ background: '#0C1B2A', padding: '14px' }}>
