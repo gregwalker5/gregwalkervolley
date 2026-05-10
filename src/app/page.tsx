@@ -258,7 +258,7 @@ export default function Home() {
               <div className="camp-card-header">
                 <span className="camp-type">Satellite Camp</span>
                 <h4>Green Hill High School</h4>
-                <span className="camp-loc">📍 Location TBA</span>
+                <span className="camp-loc">📍 Nashville, TN</span>
               </div>
               <div className="camp-card-body">
                 <div className="camp-detail">
@@ -277,7 +277,7 @@ export default function Home() {
                   <span className="detail-label">Status</span>
                   <span className="camp-status status-confirmed">Confirmed</span>
                 </div>
-                <a href="https://www.gregwalkervolley.com/greenhill" className="btn btn-primary">
+                <a href="/green-hill-2026" className="btn btn-primary">
                   Register Now →
                 </a>
               </div>
@@ -307,7 +307,7 @@ export default function Home() {
                   <span className="detail-label">Status</span>
                   <span className="camp-status status-confirmed">Confirmed</span>
                 </div>
-                <a href="https://www.gregwalkervolley.com/bishopverot" className="btn btn-primary">
+                <a href="/bishop-verot-2026" className="btn btn-primary">
                   Register Now →
                 </a>
               </div>
@@ -337,7 +337,7 @@ export default function Home() {
                   <span className="detail-label">Status</span>
                   <span className="camp-status status-filling">Filling Up</span>
                 </div>
-                <a href="https://www.gregwalkervolley.com/covenantday" className="btn btn-primary">
+                <a href="/covenant-carmel-2026" className="btn btn-primary">
                   Register Now →
                 </a>
               </div>
@@ -368,7 +368,7 @@ export default function Home() {
                   <span className="camp-status status-open">Open</span>
                 </div>
                 <a
-                  href="https://www.gregwalkervolley.com/carmelchristian"
+                  href="/covenant-carmel-2026"
                   className="btn btn-primary"
                 >
                   Register Now →
@@ -439,6 +439,34 @@ export default function Home() {
                 >
                   Register Now →
                 </a>
+              </div>
+            </div>
+
+            {/* Smith College Sunday Clinics */}
+            <div className="camp-card reveal">
+              <div className="camp-card-header">
+                <span className="camp-type">Sunday Morning Clinics</span>
+                <h4>Smith College</h4>
+                <span className="camp-loc">📍 Northampton, MA</span>
+              </div>
+              <div className="camp-card-body">
+                <div className="camp-detail">
+                  <span className="detail-label">Dates</span>
+                  <span className="detail-value">Aug 2, 9, 16, 23</span>
+                </div>
+                <div className="camp-detail">
+                  <span className="detail-label">Time</span>
+                  <span className="detail-value">9 AM – 12 PM</span>
+                </div>
+                <div className="camp-detail">
+                  <span className="detail-label">Level</span>
+                  <span className="detail-value">High School</span>
+                </div>
+                <div className="camp-detail">
+                  <span className="detail-label">Price</span>
+                  <span className="detail-value" style={{ color: '#D4A843', fontWeight: 700 }}>$100 — All 4 Sundays</span>
+                </div>
+                <a href="/smith-clinics-2026" className="btn btn-primary">Register Now →</a>
               </div>
             </div>
 
