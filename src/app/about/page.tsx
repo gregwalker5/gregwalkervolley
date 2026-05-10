@@ -29,16 +29,16 @@ export default function AboutGreg() {
           <div style={{ maxWidth: 1100, margin: '0 auto', position: 'relative', zIndex: 2, display: 'grid', gridTemplateColumns: '1fr 340px', gap: 60, alignItems: 'center' }}>
             <div>
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(212,168,67,.12)', border: '1px solid rgba(212,168,67,.25)', color: '#E8C96A', padding: '7px 18px', borderRadius: 50, fontSize: '.75rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', marginBottom: 24 }}>
-                NCAA Head Coach · USA National Team
+                NCAA Assistant Coach · USA National Team
               </div>
               <h1 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 'clamp(3rem, 7vw, 5.5rem)', color: '#FAFAFA', lineHeight: 1.02, marginBottom: 16 }}>
                 Coach<br /><span style={{ color: '#D4A843' }}>Greg Walker</span>
               </h1>
               <p style={{ color: '#C8C4BE', fontSize: '1.05rem', lineHeight: 1.7, maxWidth: 560, marginBottom: 32 }}>
-                Head Volleyball Coach at Smith College. USA National Team Coach. Over 650 collegiate and international matches across indoor, sitting, and beach volleyball.
+                Assistant Coach for Women's Volleyball at Sacred Heart University. USA National Team Coach. Over 650 collegiate and international matches across indoor, sitting, and beach volleyball.
               </p>
               <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
-                {['Smith College', 'USA Volleyball', 'NEWMAC Champions 2024', 'NCAA Tournament 2024'].map((tag, i) => (
+                {['Sacred Heart University', 'USA Volleyball', 'Women\'s Volleyball', 'NCAA Assistant Coach'].map((tag, i) => (
                   <span key={i} style={{ background: 'rgba(212,168,67,.12)', border: '1px solid rgba(212,168,67,.2)', color: '#D4A843', padding: '7px 16px', borderRadius: 50, fontSize: '.8rem', fontWeight: 600 }}>{tag}</span>
                 ))}
               </div>
@@ -382,12 +382,12 @@ export default function AboutGreg() {
                 <div style={{ display: 'inline-block', background: 'rgba(212,168,67,.15)', color: '#D4A843', padding: '5px 14px', borderRadius: 50, fontSize: '.72rem', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', marginBottom: 14 }}>Camp Director</div>
                 <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2rem', color: '#FAFAFA', marginBottom: 6 }}>Greg Walker</h3>
                 <div style={{ color: '#C8C4BE', fontSize: '.88rem', lineHeight: 1.6, marginBottom: 18 }}>
-                  Head Volleyball Coach, Smith College<br />
+                  Assistant Coach, Women’s Volleyball — Sacred Heart University<br />
                   USA Men&apos;s Sitting National Team — Head Coach<br />
                   USA Men&apos;s Indoor National Team — Consultant Coach
                 </div>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-                  {['NCAA Head Coach', 'USA National Team', 'NEWMAC Champions', '650+ Matches'].map((tag, i) => (
+                  {['NCAA Assistant Coach', 'USA National Team', 'Sacred Heart University', '650+ Matches'].map((tag, i) => (
                     <span key={i} style={{ background: 'rgba(212,168,67,.12)', color: '#D4A843', padding: '5px 12px', borderRadius: 50, fontSize: '.74rem', fontWeight: 600 }}>{tag}</span>
                   ))}
                 </div>

@@ -97,7 +97,7 @@ export default function Home() {
               <br />Compete Like a Pro.
             </h1>
             <p className="hero-sub">
-              Elite volleyball camps built by a NCAA Head Coach and USA National Team Coach. We bring
+              Elite volleyball camps built by an NCAA Assistant Coach and USA National Team Coach. We bring
               championship-level training directly to your gym — or join us at Smith College.
             </p>
             <div className="hero-actions">
@@ -801,7 +801,7 @@ export default function Home() {
           <div className="market-callout reveal">
             <p>
               Every camp listed above uses assistant coaches or local staff.{' '}
-              <strong>Greg Walker Volleyball brings a NCAA Division III Head Coach and USA National Team Coach directly to your gym</strong>{' '}
+              <strong>Greg Walker Volleyball brings an NCAA Assistant Coach and USA National Team Coach directly to your gym</strong>{' '}
               — at a lower per-hour cost than most options in your area.
             </p>
             <a
@@ -948,7 +948,7 @@ export default function Home() {
               <span className="section-label">Meet Your Coach</span>
               <h3>Coach Greg Walker</h3>
               <p>
-                Greg Walker is the Head Volleyball Coach at Smith College and a USA National Team
+                Greg Walker is an Assistant Coach for Women's Volleyball at Sacred Heart University and a USA National Team
                 Coach with experience spanning the collegiate and international levels of the sport.
               </p>
               <p>
@@ -963,9 +963,9 @@ export default function Home() {
                 empowered with tools to elevate their programs.
               </p>
               <div className="credential-tags">
-                <span>NCAA Head Coach</span>
+                <span>NCAA Assistant Coach</span>
                 <span>USA National Team</span>
-                <span>Smith College</span>
+                <span>Sacred Heart University</span>
                 <span>Nike Volleyball</span>
               </div>
               <a
