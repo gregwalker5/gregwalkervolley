@@ -1,10 +1,9 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
+import CampRegistrationForm from '@/components/CampRegistrationForm';
 
 export default function CovenantCarmelCamp() {
-  const [mobileOpen, setMobileOpen] = useState(false);
-
   useEffect(() => {
     document.title = 'Covenant Day & Carmel Christian Camp 2026 | Greg Walker Volleyball';
   }, []);
@@ -17,7 +16,7 @@ export default function CovenantCarmelCamp() {
           <a href="/" style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '1.5rem', color: '#FAFAFA', textDecoration: 'none' }}>
             Greg Walker <span style={{ color: '#D4A843' }}>Volley</span>
           </a>
-          <a href="mailto:gregwalkervolley@gmail.com?subject=Covenant Day / Carmel Christian Camp Registration" style={{ background: '#D4A843', color: '#0C1B2A', padding: '10px 20px', borderRadius: 6, fontWeight: 700, fontSize: '.85rem', textDecoration: 'none', letterSpacing: '.04em' }}>
+          <a href="#register" style={{ background: '#D4A843', color: '#0C1B2A', padding: '10px 20px', borderRadius: 6, fontWeight: 700, fontSize: '.85rem', textDecoration: 'none', letterSpacing: '.04em' }}>
             Register Now
           </a>
         </div>
@@ -40,10 +39,10 @@ export default function CovenantCarmelCamp() {
               3-day elite camp led by Greg Walker — NCAA Head Coach at Smith College and USA National Team Coach. Varsity and JV trained simultaneously across both campuses.
             </p>
             <a
-              href="mailto:gregwalkervolley@gmail.com?subject=Covenant Day / Carmel Christian Camp 2026 Registration&body=Name:%0ASchool:%0AGrade (Fall 2026):%0APosition:%0ALevel (Varsity/JV):"
+              href="#register"
               style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: '#D4A843', color: '#0C1B2A', padding: '16px 36px', borderRadius: 6, fontWeight: 800, fontSize: '1rem', textDecoration: 'none', letterSpacing: '.02em' }}
             >
-              Register via Email →
+              Register Now →
             </a>
           </div>
         </div>
@@ -58,7 +57,7 @@ export default function CovenantCarmelCamp() {
             <div style={{ background: '#fff', borderRadius: 12, border: '1px solid #E5E1DC', overflow: 'hidden' }}>
               <div style={{ background: '#0C1B2A', padding: '20px 28px' }}>
                 <div style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: '#D4A843', marginBottom: 6 }}>Camp Schedule</div>
-                <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '1.8rem', color: '#FAFAFA', margin: 0 }}>August 2026</h3>
+                <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '1.8rem', color: '#FAFAFA', margin: 0 }}>August 3–5, 2026</h3>
               </div>
               <div style={{ padding: '24px 28px' }}>
                 {[
@@ -82,10 +81,10 @@ export default function CovenantCarmelCamp() {
             <div style={{ background: '#0C1B2A', borderRadius: 12, padding: '28px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', border: '2px solid #D4A843' }}>
               <div>
                 <div style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: '#D4A843', marginBottom: 12 }}>Camp Investment</div>
-                <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '5rem', color: '#D4A843', lineHeight: 1 }}>$275</div>
+                <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '5rem', color: '#D4A843', lineHeight: 1 }}>$325</div>
                 <div style={{ color: '#C8C4BE', fontSize: '.9rem', marginTop: 6 }}>per athlete · 3-day camp</div>
                 <div style={{ display: 'inline-block', background: 'rgba(212,168,67,.15)', color: '#E8C96A', padding: '6px 14px', borderRadius: 50, fontSize: '.8rem', fontWeight: 600, marginTop: 14 }}>
-                  17 hours · $16.18/hr
+                  17 hours · $19.12/hr
                 </div>
                 <div style={{ margin: '24px 0', borderTop: '1px solid rgba(255,255,255,.08)', paddingTop: 20 }}>
                   {[
@@ -103,7 +102,7 @@ export default function CovenantCarmelCamp() {
                 </div>
               </div>
               <a
-                href="mailto:gregwalkervolley@gmail.com?subject=Covenant Day / Carmel Christian Camp 2026 Registration&body=Name:%0ASchool:%0AGrade (Fall 2026):%0APosition:%0ALevel (Varsity/JV):"
+                href="#register"
                 style={{ display: 'block', background: '#D4A843', color: '#0C1B2A', padding: '15px', borderRadius: 6, fontWeight: 800, fontSize: '1rem', textDecoration: 'none', textAlign: 'center', letterSpacing: '.02em' }}
               >
                 Register Now →
@@ -112,7 +111,7 @@ export default function CovenantCarmelCamp() {
           </div>
 
           {/* Locations */}
-          <div style={{ background: '#fff', borderRadius: 12, border: '1px solid #E5E1DC', padding: '28px', marginBottom: 24 }}>
+          <div style={{ background: '#fff', borderRadius: 12, border: '1px solid #E5E1DC', padding: '28px', marginBottom: 32 }}>
             <div style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: '#B8962E', marginBottom: 16 }}>Camp Locations</div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20 }}>
               <div style={{ padding: '18px', background: '#F0EDE8', borderRadius: 10, border: '1px solid #E5E1DC' }}>
@@ -129,7 +128,7 @@ export default function CovenantCarmelCamp() {
           </div>
 
           {/* About Greg */}
-          <div style={{ background: 'linear-gradient(135deg, #0C1B2A, #1E3A5F)', borderRadius: 12, padding: '32px', textAlign: 'center' }}>
+          <div style={{ background: 'linear-gradient(135deg, #0C1B2A, #1E3A5F)', borderRadius: 12, padding: '32px', textAlign: 'center', marginBottom: 40 }}>
             <div style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: '#D4A843', marginBottom: 12 }}>Your Coach</div>
             <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2rem', color: '#FAFAFA', marginBottom: 10 }}>Coach Greg Walker</h3>
             <p style={{ color: '#C8C4BE', fontSize: '.92rem', lineHeight: 1.7, maxWidth: 560, margin: '0 auto 20px' }}>
@@ -142,25 +141,26 @@ export default function CovenantCarmelCamp() {
             </div>
           </div>
 
-          {/* Final CTA */}
-          <div style={{ textAlign: 'center', marginTop: 40, padding: '40px 20px', background: '#fff', borderRadius: 12, border: '1px solid #E5E1DC' }}>
-            <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2rem', color: '#0C1B2A', marginBottom: 10 }}>Ready to Register?</h3>
-            <p style={{ color: '#9A958E', marginBottom: 24, fontSize: '.9rem' }}>
-              Email to reserve your spot. Include your name, school, grade, position, and level (Varsity/JV).
-            </p>
-            <a
-              href="mailto:gregwalkervolley@gmail.com?subject=Covenant Day / Carmel Christian Camp 2026 Registration&body=Name:%0ASchool:%0AGrade (Fall 2026):%0APosition:%0ALevel (Varsity/JV):"
-              style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: '#D4A843', color: '#0C1B2A', padding: '16px 40px', borderRadius: 6, fontWeight: 800, fontSize: '1rem', textDecoration: 'none' }}
-            >
-              gregwalkervolley@gmail.com →
-            </a>
-            <div style={{ marginTop: 14, color: '#9A958E', fontSize: '.82rem' }}>Questions? Same email. Coach Greg responds personally.</div>
+          {/* REGISTRATION FORM */}
+          <div id="register" style={{ scrollMarginTop: 80 }}>
+            <div style={{ textAlign: 'center', marginBottom: 32 }}>
+              <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2.6rem', color: '#0C1B2A', marginBottom: 8 }}>
+                Register for Camp
+              </h2>
+              <p style={{ color: '#9A958E', fontSize: '.95rem' }}>
+                August 3–5, 2026 · Matthews, NC (Covenant Day + Carmel Christian)
+              </p>
+            </div>
+            <CampRegistrationForm
+              campLocation="Covenant Day / Carmel Christian — Matthews, NC (August 3–5, 2026)"
+              campPrice="$325"
+              paymentNote="Payment link will be sent via email after confirmation. Spot is reserved upon payment."
+            />
           </div>
-
         </div>
 
         {/* FOOTER */}
-        <footer style={{ background: '#0C1B2A', padding: '28px', textAlign: 'center', borderTop: '1px solid rgba(255,255,255,.06)' }}>
+        <footer style={{ background: '#0C1B2A', padding: '28px', textAlign: 'center', borderTop: '1px solid rgba(255,255,255,.06)', marginTop: 60 }}>
           <div style={{ color: '#9A958E', fontSize: '.8rem' }}>© 2026 Creative Performance Consulting LLC · <a href="/" style={{ color: '#C8C4BE', textDecoration: 'none' }}>gregwalkervolley.com</a></div>
         </footer>
       </div>

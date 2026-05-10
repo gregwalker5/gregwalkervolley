@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import CampRegistrationForm from '@/components/CampRegistrationForm';
 
 export default function SmithClinics() {
   useEffect(() => {
@@ -14,7 +15,7 @@ export default function SmithClinics() {
           <a href="/" style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '1.5rem', color: '#FAFAFA', textDecoration: 'none' }}>
             Greg Walker <span style={{ color: '#D4A843' }}>Volley</span>
           </a>
-          <a href="mailto:gregwalkervolley@gmail.com?subject=Smith College AM Clinic Registration" style={{ background: '#D4A843', color: '#0C1B2A', padding: '10px 20px', borderRadius: 6, fontWeight: 700, fontSize: '.85rem', textDecoration: 'none' }}>
+          <a href="#register" style={{ background: '#D4A843', color: '#0C1B2A', padding: '10px 20px', borderRadius: 6, fontWeight: 700, fontSize: '.85rem', textDecoration: 'none' }}>
             Register — $100
           </a>
         </div>
@@ -41,7 +42,7 @@ export default function SmithClinics() {
             </div>
             <br />
             <a
-              href="mailto:gregwalkervolley@gmail.com?subject=Smith College AM Clinic Registration&body=Name:%0ASchool:%0AGrade (Fall 2026):%0APosition:"
+              href="#register"
               style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: '#D4A843', color: '#0C1B2A', padding: '16px 36px', borderRadius: 6, fontWeight: 800, fontSize: '1rem', textDecoration: 'none' }}
             >
               Register Now — $100 →
@@ -76,7 +77,7 @@ export default function SmithClinics() {
           </div>
 
           {/* Price + value */}
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24, marginBottom: 24 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24, marginBottom: 32 }}>
 
             <div style={{ background: '#0C1B2A', borderRadius: 12, padding: '28px', border: '2px solid #D4A843' }}>
               <div style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: '#D4A843', marginBottom: 12 }}>Pricing</div>
@@ -100,7 +101,7 @@ export default function SmithClinics() {
                 <div style={{ fontSize: '.74rem', color: '#9A958E', marginTop: 8, fontStyle: 'italic' }}>Same courts. Same head coach. A fraction of the cost.</div>
               </div>
               <a
-                href="mailto:gregwalkervolley@gmail.com?subject=Smith College AM Clinic Registration&body=Name:%0ASchool:%0AGrade (Fall 2026):%0APosition:"
+                href="#register"
                 style={{ display: 'block', background: '#D4A843', color: '#0C1B2A', padding: '14px', borderRadius: 6, fontWeight: 800, fontSize: '1rem', textDecoration: 'none', textAlign: 'center', marginTop: 20 }}
               >
                 Register Now →
@@ -126,7 +127,7 @@ export default function SmithClinics() {
           </div>
 
           {/* Location */}
-          <div style={{ background: 'linear-gradient(135deg, #0C1B2A, #1E3A5F)', borderRadius: 12, padding: '28px 32px', display: 'flex', gap: 32, alignItems: 'center', flexWrap: 'wrap', marginBottom: 24 }}>
+          <div style={{ background: 'linear-gradient(135deg, #0C1B2A, #1E3A5F)', borderRadius: 12, padding: '28px 32px', display: 'flex', gap: 32, alignItems: 'center', flexWrap: 'wrap', marginBottom: 40 }}>
             <div style={{ flex: 1, minWidth: 240 }}>
               <div style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: '#D4A843', marginBottom: 8 }}>Location</div>
               <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '1.8rem', color: '#FAFAFA', marginBottom: 6 }}>Smith College</div>
@@ -139,21 +140,25 @@ export default function SmithClinics() {
             </div>
           </div>
 
-          {/* CTA */}
-          <div style={{ textAlign: 'center', padding: '40px 20px', background: '#fff', borderRadius: 12, border: '1px solid #E5E1DC' }}>
-            <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2rem', color: '#0C1B2A', marginBottom: 8 }}>$100. 4 Sundays. Smith College.</h3>
-            <p style={{ color: '#9A958E', marginBottom: 24, fontSize: '.9rem', maxWidth: 440, margin: '0 auto 24px' }}>Email to register. Include your name, school, grade, and position. Spots are limited.</p>
-            <a
-              href="mailto:gregwalkervolley@gmail.com?subject=Smith College AM Clinic Registration&body=Name:%0ASchool:%0AGrade (Fall 2026):%0APosition:"
-              style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: '#D4A843', color: '#0C1B2A', padding: '16px 40px', borderRadius: 6, fontWeight: 800, fontSize: '1rem', textDecoration: 'none' }}
-            >
-              gregwalkervolley@gmail.com →
-            </a>
-            <div style={{ marginTop: 14, color: '#9A958E', fontSize: '.82rem' }}>Questions? Coach Greg responds personally.</div>
+          {/* REGISTRATION FORM */}
+          <div id="register" style={{ scrollMarginTop: 80 }}>
+            <div style={{ textAlign: 'center', marginBottom: 32 }}>
+              <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2.6rem', color: '#0C1B2A', marginBottom: 8 }}>
+                Register for Sunday Clinics
+              </h2>
+              <p style={{ color: '#9A958E', fontSize: '.95rem' }}>
+                Aug 2, 9, 16 & 23 · Smith College · Northampton, MA · $100 all 4 sessions
+              </p>
+            </div>
+            <CampRegistrationForm
+              campLocation="Smith College Sunday AM Clinics — Northampton, MA (Aug 2, 9, 16, 23)"
+              campPrice="$100 (all 4 sessions)"
+              paymentNote="Payment link sent via email after confirmation. Spot confirmed upon payment."
+            />
           </div>
         </div>
 
-        <footer style={{ background: '#0C1B2A', padding: '28px', textAlign: 'center', borderTop: '1px solid rgba(255,255,255,.06)' }}>
+        <footer style={{ background: '#0C1B2A', padding: '28px', textAlign: 'center', borderTop: '1px solid rgba(255,255,255,.06)', marginTop: 60 }}>
           <div style={{ color: '#9A958E', fontSize: '.8rem' }}>© 2026 Creative Performance Consulting LLC · <a href="/" style={{ color: '#C8C4BE', textDecoration: 'none' }}>gregwalkervolley.com</a></div>
         </footer>
       </div>
