@@ -293,7 +293,7 @@ export default function Home() {
               <div className="camp-card-body">
                 <div className="camp-detail">
                   <span className="detail-label">Dates</span>
-                  <span className="detail-value">TBA</span>
+                  <span className="detail-value">July 29–31</span>
                 </div>
                 <div className="camp-detail">
                   <span className="detail-label">Time</span>
@@ -323,7 +323,7 @@ export default function Home() {
               <div className="camp-card-body">
                 <div className="camp-detail">
                   <span className="detail-label">Dates</span>
-                  <span className="detail-value">TBA</span>
+                  <span className="detail-value">Aug 3–5</span>
                 </div>
                 <div className="camp-detail">
                   <span className="detail-label">Time</span>
@@ -353,7 +353,7 @@ export default function Home() {
               <div className="camp-card-body">
                 <div className="camp-detail">
                   <span className="detail-label">Dates</span>
-                  <span className="detail-value">TBA</span>
+                  <span className="detail-value">Aug 3–5</span>
                 </div>
                 <div className="camp-detail">
                   <span className="detail-label">Time</span>
@@ -419,7 +419,7 @@ export default function Home() {
               <div className="camp-card-body">
                 <div className="camp-detail">
                   <span className="detail-label">Dates</span>
-                  <span className="detail-value">TBA</span>
+                  <span className="detail-value">Aug 26–29</span>
                 </div>
                 <div className="camp-detail">
                   <span className="detail-label">Time</span>
@@ -629,9 +629,9 @@ export default function Home() {
                   <tr className="our-camp">
                     <td>✓ Greg Walker Volleyball</td>
                     <td>9am – 4pm</td>
-                    <td>4 days</td>
-                    <td><strong>$325</strong></td>
-                    <td>$13.54/hr</td>
+                    <td>3 days</td>
+                    <td><strong>$275</strong></td>
+                    <td>$16.18/hr</td>
                   </tr>
                 </tbody>
               </table>
@@ -681,9 +681,9 @@ export default function Home() {
                   <tr className="our-camp">
                     <td>✓ Greg Walker Volleyball</td>
                     <td>9am – 4pm</td>
-                    <td>4 days</td>
-                    <td><strong>$325</strong></td>
-                    <td>$13.54/hr</td>
+                    <td>3 days</td>
+                    <td><strong>$300</strong></td>
+                    <td>$14.29/hr</td>
                   </tr>
                 </tbody>
               </table>
@@ -787,8 +787,8 @@ export default function Home() {
                   <td>✓ Greg Walker Volleyball</td>
                   <td>9am – 4pm</td>
                   <td>4 days</td>
-                  <td>$325</td>
-                  <td>$13.54/hr</td>
+                  <td>$350</td>
+                  <td>$12.50/hr</td>
                 </tr>
               </tbody>
             </table>
