@@ -410,6 +410,78 @@ export default function AboutGreg() {
             </div>
           </div>
 
+          {/* Camp Coaches */}
+          <div style={{ marginBottom: 60 }}>
+            <div style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: '#B8962E', marginBottom: 20, textAlign: 'center' }}>Camp Coaching Staff</div>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 16 }}>
+              {[
+                {
+                  name: 'Grace Campbell',
+                  role: 'USA Women\'s National Team — Assistant Coach (WSNT)',
+                  tags: ['USA National Team', 'WSNT'],
+                  highlight: true,
+                },
+                {
+                  name: 'Brooke Stanley',
+                  role: 'Assistant Coach, Smith College · Associate Director, United Volleyball Club (Boston)',
+                  tags: ['Smith College', 'United VBC Boston'],
+                  highlight: false,
+                },
+                {
+                  name: 'Taylor Gwynne',
+                  role: 'Smith College — 2024 AVCA All-American',
+                  tags: ['Smith College', '2024 All-American'],
+                  highlight: false,
+                },
+                {
+                  name: 'Delaney Demman',
+                  role: 'Smith College Volleyball',
+                  tags: ['Smith College'],
+                  highlight: false,
+                },
+                {
+                  name: 'Meg Hopkins',
+                  role: 'Smith College Volleyball',
+                  tags: ['Smith College'],
+                  highlight: false,
+                },
+                {
+                  name: 'Zoe Westlund',
+                  role: 'Smith College Volleyball',
+                  tags: ['Smith College'],
+                  highlight: false,
+                },
+              ].map((coach, i) => (
+                <div key={i} style={{
+                  background: coach.highlight ? '#0C1B2A' : '#fff',
+                  borderRadius: 12,
+                  padding: '22px 24px',
+                  border: coach.highlight ? '1px solid rgba(212,168,67,.3)' : '1px solid #E5E1DC',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: 10,
+                }}>
+                  <div>
+                    <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '1.35rem', color: coach.highlight ? '#FAFAFA' : '#0C1B2A', marginBottom: 4 }}>{coach.name}</div>
+                    <div style={{ color: coach.highlight ? '#C8C4BE' : '#4A4A4A', fontSize: '.84rem', lineHeight: 1.55 }}>{coach.role}</div>
+                  </div>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                    {coach.tags.map((tag, j) => (
+                      <span key={j} style={{
+                        background: coach.highlight ? 'rgba(212,168,67,.12)' : 'rgba(12,27,42,.06)',
+                        color: coach.highlight ? '#D4A843' : '#152840',
+                        padding: '4px 10px',
+                        borderRadius: 50,
+                        fontSize: '.72rem',
+                        fontWeight: 600,
+                      }}>{tag}</span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* CTA */}
           <div style={{ background: 'linear-gradient(135deg, #0C1B2A, #1E3A5F)', borderRadius: 16, padding: '48px', textAlign: 'center' }}>
             <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 'clamp(2rem, 4vw, 3rem)', color: '#FAFAFA', marginBottom: 14 }}>
