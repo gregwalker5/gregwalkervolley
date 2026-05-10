@@ -969,7 +969,7 @@ export default function Home() {
                 <span>Nike Volleyball</span>
               </div>
               <a
-                href="https://www.gregwalkervolley.com/camp-director"
+                href="/about"
                 className="btn btn-dark"
                 style={{ marginTop: '24px' }}
               >
