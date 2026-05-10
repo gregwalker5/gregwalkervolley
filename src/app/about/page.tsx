@@ -423,8 +423,8 @@ export default function AboutGreg() {
                 },
                 {
                   name: 'Brooke Stanley',
-                  role: 'Assistant Coach, Smith College · Associate Director, United Volleyball Club (Boston)',
-                  tags: ['Smith College', 'United VBC Boston'],
+                  role: 'Assistant Coach, Smith College · Associate Director, Boston United Volleyball Club',
+                  tags: ['Smith College', 'Boston United VBC'],
                   highlight: false,
                 },
                 {
