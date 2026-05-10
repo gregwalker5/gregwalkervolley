@@ -54,7 +54,7 @@ export default function Home() {
             <li><a href="#camps">2026 Camps</a></li>
             <li><a href="#satellite">Satellite Training</a></li>
             <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="/about">About / Staff</a></li>
             <li><a href="#faq">FAQ</a></li>
             <li>
               <a href="mailto:gregwalkervolley@gmail.com" className="cta-link">
@@ -79,7 +79,7 @@ export default function Home() {
         <a href="#camps" onClick={closeMobileMenu}>2026 Camps</a>
         <a href="#satellite" onClick={closeMobileMenu}>Satellite Training</a>
         <a href="#pricing" onClick={closeMobileMenu}>Pricing</a>
-        <a href="#about" onClick={closeMobileMenu}>About</a>
+        <a href="/about" onClick={closeMobileMenu}>About / Staff</a>
         <a href="#faq" onClick={closeMobileMenu}>FAQ</a>
         <a href="mailto:gregwalkervolley@gmail.com">Book a Camp</a>
       </div>
@@ -1063,7 +1063,7 @@ export default function Home() {
             © 2026 Creative Performance Consulting LLC. All rights reserved.
           </span>
           <div className="footer-links">
-            <a href="https://www.gregwalkervolley.com/camp-director">About</a>
+            <a href="/about">About / Staff</a>
             <a href="https://www.gregwalkervolley.com/camp-staff">Staff</a>
             <a href="https://www.gregwalkervolley.com/blog">Blog</a>
             <a href="https://www.gregwalkervolley.com/contact-8">Contact</a>
