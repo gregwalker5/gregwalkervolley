@@ -441,8 +441,8 @@ export default function AboutGreg() {
                 },
                 {
                   name: 'Meg Hopkins',
-                  role: 'Smith College Volleyball',
-                  tags: ['Smith College'],
+                  role: 'Assistant Coach, Mercer University',
+                  tags: ['Mercer University'],
                   highlight: false,
                 },
                 {
