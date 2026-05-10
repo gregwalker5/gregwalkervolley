@@ -190,6 +190,184 @@ export default function AboutGreg() {
             </div>
           </div>
 
+          {/* USA Sitting National Team */}
+          <div style={{ marginBottom: 60 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 28 }}>
+              <div style={{ height: 2, flex: 1, background: 'linear-gradient(90deg, #D4A843, transparent)' }} />
+              <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2rem', color: '#0C1B2A', whiteSpace: 'nowrap' }}>USA Men&apos;s Sitting National Team</span>
+              <div style={{ height: 2, flex: 1, background: 'linear-gradient(90deg, transparent, #D4A843)' }} />
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 28, marginBottom: 32 }}>
+              <div>
+                <p style={{ color: '#4A4A4A', lineHeight: 1.8, fontSize: '.95rem', marginBottom: 16 }}>
+                  Walker was appointed <strong>Head Coach of the USA Men&apos;s Sitting National Team (MSNT)</strong> in 2016 after serving as assistant coach from 2013–2016. Under his leadership, the team achieved its best-ever World Championship finish — <strong>6th place at the 2022 World Paravolley World Championships</strong> in Bosnia, the highest finish in MSNT history.
+                </p>
+                <p style={{ color: '#4A4A4A', lineHeight: 1.8, fontSize: '.95rem', marginBottom: 16 }}>
+                  Additional highlights include a <strong>silver medal finish at the 2019 Parapan American Games</strong>, a top-8 finish at the 2018 World Championships (USA&apos;s first top-10 finish at that event), and helping the team qualify for the <strong>2016 Paralympic Games in Rio de Janeiro</strong>.
+                </p>
+                <p style={{ color: '#4A4A4A', lineHeight: 1.8, fontSize: '.95rem' }}>
+                  Beyond the Sitting National Team, Walker served as a consultant coach/assistant coach with the <strong>USA Men&apos;s Indoor National Team</strong>, contributing to the 2019 Volleyball Nations League, the 2017 NORCECA Championship gold medal, and earning a bid to the 2018 World Championships. He has also provided scout consulting for FIVB Beach competitions and pro beach athletes, and worked with the USA National Team Development Program (NTDP).
+                </p>
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+                {[
+                  '2022 World Paravolley World Championships — 6th place (best-ever MSNT finish)',
+                  '2019 Parapan American Games — Silver Medal (gold medal match)',
+                  '2018 World Paravolley World Championships — Top 8 (first USA top-10)',
+                  '2017 Paravolley Pan American Zonal Championships — Silver Medal',
+                  '2016 Paralympic Games (Rio) — Team qualification',
+                  '2017 NORCECA Championship — Gold Medal (Men\'s Indoor)',
+                  'Scout consultant — FIVB Beach & pro beach athletes',
+                  'USA National Team Development Program (NTDP) contributor',
+                ].map((item, i) => (
+                  <div key={i} style={{ display: 'flex', gap: 10, alignItems: 'flex-start' }}>
+                    <span style={{ color: '#D4A843', fontWeight: 700, flexShrink: 0, marginTop: 1 }}>✓</span>
+                    <span style={{ color: '#1A1A1A', fontSize: '.87rem', lineHeight: 1.5 }}>{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Jamie Davis quote */}
+            <div style={{ background: '#0C1B2A', borderRadius: 16, padding: '36px 44px', borderLeft: '4px solid #D4A843' }}>
+              <div style={{ fontSize: '3rem', color: '#D4A843', lineHeight: 1, marginBottom: 12, fontFamily: 'Georgia, serif' }}>&ldquo;</div>
+              <blockquote style={{ color: '#E8E4DF', fontSize: '1.05rem', lineHeight: 1.75, fontStyle: 'italic', margin: '0 0 20px' }}>
+                Greg is extremely talented, hardworking, and diligent and is an excellent leader. As the head coach for USA Volleyball&apos;s Men&apos;s Sitting National Team, Greg has led the team to new heights, including a best-ever finish at World Championships, and I am confident that he will do the same at Smith.
+              </blockquote>
+              <div style={{ color: '#D4A843', fontWeight: 700, fontSize: '.9rem' }}>Jamie Davis</div>
+              <div style={{ color: '#9A958E', fontSize: '.82rem', marginTop: 3 }}>Former CEO, USA Volleyball</div>
+            </div>
+          </div>
+
+          {/* Prior Coaching Career */}
+          <div style={{ marginBottom: 60 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 28 }}>
+              <div style={{ height: 2, flex: 1, background: 'linear-gradient(90deg, #D4A843, transparent)' }} />
+              <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2rem', color: '#0C1B2A', whiteSpace: 'nowrap' }}>Coaching Record</span>
+              <div style={{ height: 2, flex: 1, background: 'linear-gradient(90deg, transparent, #D4A843)' }} />
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20 }}>
+              {[
+                {
+                  school: 'USC (Men\'s)',
+                  role: 'Assistant Coach · 2019',
+                  bullets: [
+                    '18-11 record — doubled win total from prior year',
+                    'First NCAA Tournament appearance since 2012',
+                    '3rd place MPSF — highest since 2012',
+                    'AVCA #5 national ranking (highest since 2012)',
+                    'Undefeated at home 12-0 (first time since 2000)',
+                    '7 wins over AVCA Top 10 teams',
+                  ],
+                },
+                {
+                  school: 'Sacred Heart (Men\'s)',
+                  role: 'Head Coach',
+                  bullets: [
+                    '15-11 record, 8-6 conference — 8-win improvement',
+                    'Historic 3-1 road win over No. 12 Penn State',
+                    'First conference opponent to win regular season series vs Penn State since 1984',
+                    '3rd place EIVA (preseason picked 7th)',
+                    'Program\'s first-ever AVCA All-American (Joshua Ayzenberg)',
+                    'First player trained with USA Men\'s National Team',
+                  ],
+                },
+                {
+                  school: 'Sacred Heart (Women\'s)',
+                  role: 'Head Coach · 2016',
+                  bullets: [
+                    'NEC Regular Season Championship',
+                    '22-8 overall, 13-1 conference — best in program history',
+                    'Coach of the Year',
+                    'Conference Player of the Year & Libero of the Year',
+                    'Multiple All-Conference selections',
+                  ],
+                },
+                {
+                  school: 'Alderson Broaddus (Men\'s)',
+                  role: 'Head Coach',
+                  bullets: [
+                    '21-6 record',
+                    'First-ever conference championship in program history',
+                    'Led program transition to NCAA Division I/II',
+                  ],
+                },
+                {
+                  school: 'Mississippi State (Women\'s)',
+                  role: 'Assistant Coach',
+                  bullets: [
+                    'Mentored pin attackers and defense',
+                    'Helped produce program\'s first-ever AVCA All-Americans',
+                  ],
+                },
+                {
+                  school: 'Pfeiffer University (Men\'s)',
+                  role: 'Head Coach',
+                  bullets: [
+                    '2nd consecutive Conference Carolinas Championship',
+                    'NCAA Statistical Champions in kills/set and points/set',
+                    'Built program into NCAA competitive powerhouse',
+                  ],
+                },
+              ].map((entry, i) => (
+                <div key={i} style={{ background: '#fff', borderRadius: 12, border: '1px solid #E5E1DC', overflow: 'hidden' }}>
+                  <div style={{ background: '#152840', padding: '14px 20px' }}>
+                    <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '1.25rem', color: '#FAFAFA' }}>{entry.school}</div>
+                    <div style={{ color: '#D4A843', fontSize: '.78rem', fontWeight: 600, marginTop: 2 }}>{entry.role}</div>
+                  </div>
+                  <div style={{ padding: '16px 20px' }}>
+                    {entry.bullets.map((b, j) => (
+                      <div key={j} style={{ display: 'flex', gap: 8, alignItems: 'flex-start', marginBottom: 7 }}>
+                        <span style={{ color: '#D4A843', fontWeight: 700, flexShrink: 0, fontSize: '.85rem' }}>✓</span>
+                        <span style={{ color: '#1A1A1A', fontSize: '.84rem', lineHeight: 1.45 }}>{b}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Personal / Background */}
+          <div style={{ marginBottom: 60 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 28 }}>
+              <div style={{ height: 2, flex: 1, background: 'linear-gradient(90deg, #D4A843, transparent)' }} />
+              <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2rem', color: '#0C1B2A', whiteSpace: 'nowrap' }}>Background & Education</span>
+              <div style={{ height: 2, flex: 1, background: 'linear-gradient(90deg, transparent, #D4A843)' }} />
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 28 }}>
+              <div>
+                <p style={{ color: '#4A4A4A', lineHeight: 1.8, fontSize: '.95rem', marginBottom: 16 }}>
+                  Originally from Huntingdon, Pennsylvania, Walker attended Penn State University and earned a <strong>Bachelor&apos;s degree in Sports Coaching</strong> from the United States Sports Academy and a <strong>Master&apos;s degree in Coaching Education and Athlete Development</strong> from Xavier University.
+                </p>
+                <p style={{ color: '#4A4A4A', lineHeight: 1.8, fontSize: '.95rem', marginBottom: 16 }}>
+                  He has served on the AVCA Mentor Program, National Ranking Polls, and NCAA Committees, and is a current member of the Certification Council of the Association for Applied Sport Psychology (AASP).
+                </p>
+                <p style={{ color: '#4A4A4A', lineHeight: 1.8, fontSize: '.95rem' }}>
+                  Walker now resides in Northampton, Massachusetts, with his wife <strong>Heather</strong> — a Senior Research Project Manager at Dana-Farber Cancer Institute — and their daughters, <strong>Avery and Devin</strong>.
+                </p>
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+                {[
+                  { icon: '🎹', label: 'Musician', detail: 'Piano, guitar, and trumpet' },
+                  { icon: '🌍', label: '25+ Countries', detail: 'Travel through volleyball and coaching' },
+                  { icon: '🥋', label: '5th-Degree Black Belt', detail: 'International Certification in Karate' },
+                  { icon: '🎓', label: 'MS · Xavier University', detail: 'Coaching Education & Athlete Development' },
+                  { icon: '🎓', label: 'BS · US Sports Academy', detail: 'Sports Coaching' },
+                  { icon: '🏛️', label: 'Penn State Alumni', detail: 'Attended Penn State University' },
+                ].map((f, i) => (
+                  <div key={i} style={{ display: 'flex', gap: 14, alignItems: 'center', background: '#fff', borderRadius: 10, padding: '14px 18px', border: '1px solid #E5E1DC' }}>
+                    <span style={{ fontSize: '1.4rem', flexShrink: 0 }}>{f.icon}</span>
+                    <div>
+                      <div style={{ fontWeight: 700, color: '#0C1B2A', fontSize: '.9rem' }}>{f.label}</div>
+                      <div style={{ color: '#9A958E', fontSize: '.8rem', marginTop: 2 }}>{f.detail}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
           {/* CTA */}
           <div style={{ background: 'linear-gradient(135deg, #0C1B2A, #1E3A5F)', borderRadius: 16, padding: '48px', textAlign: 'center' }}>
             <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 'clamp(2rem, 4vw, 3rem)', color: '#FAFAFA', marginBottom: 14 }}>
