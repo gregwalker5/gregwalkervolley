@@ -368,6 +368,48 @@ export default function AboutGreg() {
             </div>
           </div>
 
+          {/* Camp Staff */}
+          <div style={{ marginBottom: 60 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 28 }}>
+              <div style={{ height: 2, flex: 1, background: 'linear-gradient(90deg, #D4A843, transparent)' }} />
+              <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2rem', color: '#0C1B2A', whiteSpace: 'nowrap' }}>Camp Staff</span>
+              <div style={{ height: 2, flex: 1, background: 'linear-gradient(90deg, transparent, #D4A843)' }} />
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24 }}>
+
+              {/* Greg Walker */}
+              <div style={{ background: '#0C1B2A', borderRadius: 14, padding: '32px', border: '2px solid #D4A843' }}>
+                <div style={{ display: 'inline-block', background: 'rgba(212,168,67,.15)', color: '#D4A843', padding: '5px 14px', borderRadius: 50, fontSize: '.72rem', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', marginBottom: 14 }}>Camp Director</div>
+                <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2rem', color: '#FAFAFA', marginBottom: 6 }}>Greg Walker</h3>
+                <div style={{ color: '#C8C4BE', fontSize: '.88rem', lineHeight: 1.6, marginBottom: 18 }}>
+                  Head Volleyball Coach, Smith College<br />
+                  USA Men&apos;s Sitting National Team — Head Coach<br />
+                  USA Men&apos;s Indoor National Team — Consultant Coach
+                </div>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+                  {['NCAA Head Coach', 'USA National Team', 'NEWMAC Champions', '650+ Matches'].map((tag, i) => (
+                    <span key={i} style={{ background: 'rgba(212,168,67,.12)', color: '#D4A843', padding: '5px 12px', borderRadius: 50, fontSize: '.74rem', fontWeight: 600 }}>{tag}</span>
+                  ))}
+                </div>
+              </div>
+
+              {/* Connor Martin */}
+              <div style={{ background: '#fff', borderRadius: 14, padding: '32px', border: '1px solid #E5E1DC' }}>
+                <div style={{ display: 'inline-block', background: 'rgba(12,27,42,.08)', color: '#152840', padding: '5px 14px', borderRadius: 50, fontSize: '.72rem', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', marginBottom: 14 }}>Co-Director</div>
+                <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2rem', color: '#0C1B2A', marginBottom: 6 }}>Connor Martin</h3>
+                <div style={{ color: '#4A4A4A', fontSize: '.88rem', lineHeight: 1.6, marginBottom: 18 }}>
+                  Associate Head Coach, Smith College<br />
+                  USA Men&apos;s Sitting National Team — National Team Manager
+                </div>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+                  {['Associate Head Coach', 'USA MSNT Manager', 'Smith College'].map((tag, i) => (
+                    <span key={i} style={{ background: 'rgba(12,27,42,.07)', color: '#152840', padding: '5px 12px', borderRadius: 50, fontSize: '.74rem', fontWeight: 600 }}>{tag}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* CTA */}
           <div style={{ background: 'linear-gradient(135deg, #0C1B2A, #1E3A5F)', borderRadius: 16, padding: '48px', textAlign: 'center' }}>
             <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 'clamp(2rem, 4vw, 3rem)', color: '#FAFAFA', marginBottom: 14 }}>
