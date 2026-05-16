@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import CampRegistrationForm from '@/components/CampRegistrationForm';
+import RegFoxButton from '@/components/RegFoxButton';
 
 export default function BishopVerotCamp() {
   useEffect(() => {
@@ -138,10 +138,10 @@ export default function BishopVerotCamp() {
                 Secure your spot — July 29–31, 2026 · Fort Myers, FL
               </p>
             </div>
-            <CampRegistrationForm
-              campLocation="Bishop Verot High School — Fort Myers, FL (July 29–31, 2026)"
-              campPrice="$325"
-              paymentNote="Payment link will be sent via email after confirmation. Spot is reserved upon payment."
+            <RegFoxButton
+              regfoxUrl="https://app.regfox.com/preview/d081e82478e649c4a2ff1ae66a9974d0"
+              campName="Bishop Verot HS Camp 2026"
+              status="open"
             />
           </div>
         </div>

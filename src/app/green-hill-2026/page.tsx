@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import CampRegistrationForm from '@/components/CampRegistrationForm';
+import RegFoxButton from '@/components/RegFoxButton';
 
 export default function GreenHillCamp() {
   useEffect(() => {
@@ -129,14 +129,13 @@ export default function GreenHillCamp() {
                 Register Your Interest
               </h2>
               <p style={{ color: '#9A958E', fontSize: '.95rem' }}>
-                Dates TBA · Nashville, TN · Green Hill High School<br />
-                <span style={{ fontSize: '.85rem' }}>Submit below to be first notified when dates are confirmed.</span>
+                Dates TBA · Nashville, TN · Green Hill High School
               </p>
             </div>
-            <CampRegistrationForm
-              campLocation="Green Hill High School — Nashville, TN (Dates TBA, Summer 2026)"
-              campPrice="$325 (when dates confirmed)"
-              paymentNote="No payment yet — we'll contact you when dates are confirmed and registration opens."
+            <RegFoxButton
+              regfoxUrl="https://app.regfox.com/preview/5ef55474201540219c6f4f7f2152f99e"
+              campName="Green Hill HS Camp 2026"
+              status="coming-soon"
             />
           </div>
         </div>

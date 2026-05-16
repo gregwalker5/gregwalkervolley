@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import CampRegistrationForm from '@/components/CampRegistrationForm';
+import RegFoxButton from '@/components/RegFoxButton';
 
 export default function CovenantCarmelCamp() {
   useEffect(() => {
@@ -151,10 +151,10 @@ export default function CovenantCarmelCamp() {
                 August 3–5, 2026 · Matthews, NC (Covenant Day + Carmel Christian)
               </p>
             </div>
-            <CampRegistrationForm
-              campLocation="Covenant Day / Carmel Christian — Matthews, NC (August 3–5, 2026)"
-              campPrice="$325"
-              paymentNote="Payment link will be sent via email after confirmation. Spot is reserved upon payment."
+            <RegFoxButton
+              regfoxUrl="https://app.regfox.com/preview/d2a86a140ce648dd8850519c258252f3"
+              campName="Covenant Day / Carmel Christian Camp 2026"
+              status="filling"
             />
           </div>
         </div>

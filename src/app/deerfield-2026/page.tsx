@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import CampRegistrationForm from '@/components/CampRegistrationForm';
+import RegFoxButton from '@/components/RegFoxButton';
 
 export default function DeerfieldCamp() {
   useEffect(() => {
@@ -136,10 +136,10 @@ export default function DeerfieldCamp() {
                 August 26–29, 2026 · Deerfield Academy, MA
               </p>
             </div>
-            <CampRegistrationForm
-              campLocation="Deerfield Academy — Deerfield, MA (August 26–29, 2026)"
-              campPrice="$350"
-              paymentNote="Payment link will be sent via email after confirmation. Spot is reserved upon payment."
+            <RegFoxButton
+              regfoxUrl="https://app.regfox.com/preview/916915888b674f74a3c31abba0e5d916"
+              campName="Deerfield Academy Camp 2026"
+              status="open"
             />
           </div>
         </div>
