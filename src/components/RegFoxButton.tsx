@@ -52,7 +52,10 @@ export default function RegFoxButton({ regfoxUrl, campName, status = 'open' }: R
         Register on RegFox →
       </a>
       <p style={{ marginTop: 14, color: '#9A958E', fontSize: '.82rem' }}>
-        Secure registration · Waiver & payment processed through RegFox
+        Secure registration · Waiver &amp; payment processed through RegFox
+      </p>
+      <p style={{ marginTop: 8, fontSize: '.8rem' }}>
+        <a href="/waiver" style={{ color: '#D4A843', textDecoration: 'underline' }}>Read the full 2026 Participant Waiver →</a>
       </p>
     </div>
   );
