@@ -46,7 +46,7 @@ export default function AboutGreg() {
             <div style={{ aspectRatio: '4/5', borderRadius: 16, overflow: 'hidden', position: 'relative', border: '2px solid rgba(212,168,67,.2)' }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://static.wixstatic.com/media/15dc9a_5a23eb1377314543913290c1aa61ca4b~mv2.jpg/v1/fill/w_779,h_974,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/15dc9a_5a23eb1377314543913290c1aa61ca4b~mv2.jpg"
+                src="/greg-walker-coach.jpg"
                 alt="Coach Greg Walker"
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />

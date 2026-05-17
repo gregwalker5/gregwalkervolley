@@ -938,7 +938,7 @@ export default function Home() {
             <div className="about-image reveal">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://static.wixstatic.com/media/15dc9a_5a23eb1377314543913290c1aa61ca4b~mv2.jpg/v1/fill/w_779,h_974,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/15dc9a_5a23eb1377314543913290c1aa61ca4b~mv2.jpg"
+                src="/greg-walker-coach.jpg"
                 alt="Coach Greg Walker"
                 loading="lazy"
               />
