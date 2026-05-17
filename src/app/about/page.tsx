@@ -29,16 +29,16 @@ export default function AboutGreg() {
           <div style={{ maxWidth: 1100, margin: '0 auto', position: 'relative', zIndex: 2, display: 'grid', gridTemplateColumns: '1fr 340px', gap: 60, alignItems: 'center' }}>
             <div>
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(212,168,67,.12)', border: '1px solid rgba(212,168,67,.25)', color: '#E8C96A', padding: '7px 18px', borderRadius: 50, fontSize: '.75rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', marginBottom: 24 }}>
-                NCAA Assistant Coach · USA National Team
+                NCAA Head Coach · USA National Team
               </div>
               <h1 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 'clamp(3rem, 7vw, 5.5rem)', color: '#FAFAFA', lineHeight: 1.02, marginBottom: 16 }}>
                 Coach<br /><span style={{ color: '#D4A843' }}>Greg Walker</span>
               </h1>
               <p style={{ color: '#C8C4BE', fontSize: '1.05rem', lineHeight: 1.7, maxWidth: 560, marginBottom: 32 }}>
-                Assistant Coach for Women's Volleyball at Sacred Heart University. USA National Team Coach. Over 650 collegiate and international matches across indoor, sitting, and beach volleyball.
+                Head Coach for Women's Volleyball at Smith College. USA National Team Coach. Over 650 collegiate and international matches across indoor, sitting, and beach volleyball.
               </p>
               <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
-                {['Sacred Heart University', 'USA Volleyball', 'Women\'s Volleyball', 'NCAA Assistant Coach'].map((tag, i) => (
+                {['Smith College', 'USA Volleyball', 'Women\'s Volleyball', 'NCAA Head Coach'].map((tag, i) => (
                   <span key={i} style={{ background: 'rgba(212,168,67,.12)', border: '1px solid rgba(212,168,67,.2)', color: '#D4A843', padding: '7px 16px', borderRadius: 50, fontSize: '.8rem', fontWeight: 600 }}>{tag}</span>
                 ))}
               </div>
@@ -88,10 +88,10 @@ export default function AboutGreg() {
                   When Walker took over the Smith College program, the Pioneers had gone <strong>38-125 over the previous decade</strong>. Under his leadership, Smith has achieved only winning seasons and made postseason appearances every year.
                 </p>
                 <p style={{ color: '#4A4A4A', lineHeight: 1.8, fontSize: '.95rem', marginBottom: 16 }}>
-                  In 2024, Smith captured the <strong>NEWMAC Championship</strong> — their first since 2005 — and advanced to the second round of the NCAA Tournament, the program's first NCAA appearance in over two decades and <strong>first-ever NCAA Tournament victory</strong>.
+                  In 2024, Smith captured the <strong>NEWMAC Championship</strong> - their first since 2005 - and advanced to the second round of the NCAA Tournament, the program's first NCAA appearance in over two decades and <strong>first-ever NCAA Tournament victory</strong>.
                 </p>
                 <p style={{ color: '#4A4A4A', lineHeight: 1.8, fontSize: '.95rem' }}>
-                  The season culminated with Smith finishing <strong>#23 in the NCAA NPI rankings</strong>, solidifying its place as one of the nation's top programs. Walker turned the Pioneers from unranked to top 25 in just four years — including a stunning upset of undefeated AVCA #4 MIT in the NEWMAC Championship.
+                  The season culminated with Smith finishing <strong>#23 in the NCAA NPI rankings</strong>, solidifying its place as one of the nation's top programs. Walker turned the Pioneers from unranked to top 25 in just four years - including a stunning upset of undefeated AVCA #4 MIT in the NEWMAC Championship.
                 </p>
               </div>
 
@@ -140,10 +140,10 @@ export default function AboutGreg() {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 28, alignItems: 'start' }}>
               <div>
                 <p style={{ color: '#4A4A4A', lineHeight: 1.8, fontSize: '.95rem', marginBottom: 16 }}>
-                  Walker is a current <strong>USA National Team Coach</strong> with experience spanning multiple disciplines — indoor, sitting, and beach volleyball — with over 650 collegiate and international matches on his résumé.
+                  Walker is a current <strong>USA National Team Coach</strong> with experience spanning multiple disciplines - indoor, sitting, and beach volleyball - with over 650 collegiate and international matches on his résumé.
                 </p>
                 <p style={{ color: '#4A4A4A', lineHeight: 1.8, fontSize: '.95rem' }}>
-                  With a proven track record at every NCAA level — Power-5, Division I, Division II, and Division III — and on the international stage, Walker is a dynamic leader known for his ability to turn programs into championship contenders while fostering athlete-centered, inclusive cultures.
+                  With a proven track record at every NCAA level - Power-5, Division I, Division II, and Division III - and on the international stage, Walker is a dynamic leader known for his ability to turn programs into championship contenders while fostering athlete-centered, inclusive cultures.
                 </p>
               </div>
 
@@ -200,7 +200,7 @@ export default function AboutGreg() {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 28, marginBottom: 32 }}>
               <div>
                 <p style={{ color: '#4A4A4A', lineHeight: 1.8, fontSize: '.95rem', marginBottom: 16 }}>
-                  Walker was appointed <strong>Head Coach of the USA Men&apos;s Sitting National Team (MSNT)</strong> in 2016 after serving as assistant coach from 2013–2016. Under his leadership, the team achieved its best-ever World Championship finish — <strong>6th place at the 2022 World Paravolley World Championships</strong> in Bosnia, the highest finish in MSNT history.
+                  Walker was appointed <strong>Head Coach of the USA Men&apos;s Sitting National Team (MSNT)</strong> in 2016 after serving as assistant coach from 2013-2016. Under his leadership, the team achieved its best-ever World Championship finish - <strong>6th place at the 2022 World Paravolley World Championships</strong> in Bosnia, the highest finish in MSNT history.
                 </p>
                 <p style={{ color: '#4A4A4A', lineHeight: 1.8, fontSize: '.95rem', marginBottom: 16 }}>
                   Additional highlights include a <strong>silver medal finish at the 2019 Parapan American Games</strong>, a top-8 finish at the 2018 World Championships (USA&apos;s first top-10 finish at that event), and helping the team qualify for the <strong>2016 Paralympic Games in Rio de Janeiro</strong>.
@@ -211,13 +211,13 @@ export default function AboutGreg() {
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
                 {[
-                  '2022 World Paravolley World Championships — 6th place (best-ever MSNT finish)',
-                  '2019 Parapan American Games — Silver Medal (gold medal match)',
-                  '2018 World Paravolley World Championships — Top 8 (first USA top-10)',
-                  '2017 Paravolley Pan American Zonal Championships — Silver Medal',
-                  '2016 Paralympic Games (Rio) — Team qualification',
-                  '2017 NORCECA Championship — Gold Medal (Men\'s Indoor)',
-                  'Scout consultant — FIVB Beach & pro beach athletes',
+                  '2022 World Paravolley World Championships - 6th place (best-ever MSNT finish)',
+                  '2019 Parapan American Games - Silver Medal (gold medal match)',
+                  '2018 World Paravolley World Championships - Top 8 (first USA top-10)',
+                  '2017 Paravolley Pan American Zonal Championships - Silver Medal',
+                  '2016 Paralympic Games (Rio) - Team qualification',
+                  '2017 NORCECA Championship - Gold Medal (Men\'s Indoor)',
+                  'Scout consultant - FIVB Beach & pro beach athletes',
                   'USA National Team Development Program (NTDP) contributor',
                 ].map((item, i) => (
                   <div key={i} style={{ display: 'flex', gap: 10, alignItems: 'flex-start' }}>
@@ -252,9 +252,9 @@ export default function AboutGreg() {
                   school: 'USC (Men\'s)',
                   role: 'Assistant Coach · 2019',
                   bullets: [
-                    '18-11 record — doubled win total from prior year',
+                    '18-11 record - doubled win total from prior year',
                     'First NCAA Tournament appearance since 2012',
-                    '3rd place MPSF — highest since 2012',
+                    '3rd place MPSF - highest since 2012',
                     'AVCA #5 national ranking (highest since 2012)',
                     'Undefeated at home 12-0 (first time since 2000)',
                     '7 wins over AVCA Top 10 teams',
@@ -264,7 +264,7 @@ export default function AboutGreg() {
                   school: 'Sacred Heart (Men\'s)',
                   role: 'Head Coach',
                   bullets: [
-                    '15-11 record, 8-6 conference — 8-win improvement',
+                    '15-11 record, 8-6 conference - 8-win improvement',
                     'Historic 3-1 road win over No. 12 Penn State',
                     'First conference opponent to win regular season series vs Penn State since 1984',
                     '3rd place EIVA (preseason picked 7th)',
@@ -277,7 +277,7 @@ export default function AboutGreg() {
                   role: 'Head Coach · 2016',
                   bullets: [
                     'NEC Regular Season Championship',
-                    '22-8 overall, 13-1 conference — best in program history',
+                    '22-8 overall, 13-1 conference - best in program history',
                     'Coach of the Year',
                     'Conference Player of the Year & Libero of the Year',
                     'Multiple All-Conference selections',
@@ -344,7 +344,7 @@ export default function AboutGreg() {
                   He has served on the AVCA Mentor Program, National Ranking Polls, and NCAA Committees, and is a current member of the Certification Council of the Association for Applied Sport Psychology (AASP).
                 </p>
                 <p style={{ color: '#4A4A4A', lineHeight: 1.8, fontSize: '.95rem' }}>
-                  Walker now resides in Northampton, Massachusetts, with his wife <strong>Heather</strong> — a Senior Research Project Manager at Dana-Farber Cancer Institute — and their daughters, <strong>Avery and Devin</strong>.
+                  Walker now resides in Northampton, Massachusetts, with his wife <strong>Heather</strong> - a Senior Research Project Manager at Dana-Farber Cancer Institute - and their daughters, <strong>Avery and Devin</strong>.
                 </p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
@@ -382,12 +382,12 @@ export default function AboutGreg() {
                 <div style={{ display: 'inline-block', background: 'rgba(212,168,67,.15)', color: '#D4A843', padding: '5px 14px', borderRadius: 50, fontSize: '.72rem', fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', marginBottom: 14 }}>Camp Director</div>
                 <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2rem', color: '#FAFAFA', marginBottom: 6 }}>Greg Walker</h3>
                 <div style={{ color: '#C8C4BE', fontSize: '.88rem', lineHeight: 1.6, marginBottom: 18 }}>
-                  Assistant Coach, Women’s Volleyball — Sacred Heart University<br />
+                  Head Coach, Women's Volleyball — Smith College<br />
                   USA Men&apos;s Sitting National Team — Head Coach<br />
                   USA Men&apos;s Indoor National Team — Consultant Coach
                 </div>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-                  {['NCAA Assistant Coach', 'USA National Team', 'Sacred Heart University', '650+ Matches'].map((tag, i) => (
+                  {['NCAA Head Coach', 'USA National Team', 'Smith College', '650+ Matches'].map((tag, i) => (
                     <span key={i} style={{ background: 'rgba(212,168,67,.12)', color: '#D4A843', padding: '5px 12px', borderRadius: 50, fontSize: '.74rem', fontWeight: 600 }}>{tag}</span>
                   ))}
                 </div>
@@ -399,7 +399,7 @@ export default function AboutGreg() {
                 <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2rem', color: '#0C1B2A', marginBottom: 6 }}>Connor Martin</h3>
                 <div style={{ color: '#4A4A4A', fontSize: '.88rem', lineHeight: 1.6, marginBottom: 18 }}>
                   Associate Head Coach, Smith College<br />
-                  USA Men&apos;s Sitting National Team — National Team Manager
+                  USA Men&apos;s Sitting National Team - National Team Manager
                 </div>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
                   {['Associate Head Coach', 'USA MSNT Manager', 'Smith College'].map((tag, i) => (
@@ -417,7 +417,7 @@ export default function AboutGreg() {
               {[
                 {
                   name: 'Grace Campbell',
-                  role: 'USA Women\'s National Team — Assistant Coach (WSNT)',
+                  role: 'USA Women\'s National Team - Assistant Coach (WSNT)',
                   tags: ['USA National Team', 'WSNT'],
                   highlight: true,
                 },
@@ -429,7 +429,7 @@ export default function AboutGreg() {
                 },
                 {
                   name: 'Taylor Gwynne',
-                  role: 'Smith College — 2024 AVCA All-American',
+                  role: 'Smith College - 2024 AVCA All-American',
                   tags: ['Smith College', '2024 All-American'],
                   highlight: false,
                 },
@@ -488,7 +488,7 @@ export default function AboutGreg() {
               Train With Coach Walker This Summer
             </h2>
             <p style={{ color: '#C8C4BE', fontSize: '1rem', lineHeight: 1.7, maxWidth: 520, margin: '0 auto 32px' }}>
-              The same coaching that built a #23 nationally-ranked NCAA program and led USA National Team athletes — now coming to your gym.
+              The same coaching that built a #23 nationally-ranked NCAA program and led USA National Team athletes - now coming to your gym.
             </p>
             <div style={{ display: 'flex', gap: 14, justifyContent: 'center', flexWrap: 'wrap' }}>
               <a href="/#camps" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: '#D4A843', color: '#0C1B2A', padding: '15px 32px', borderRadius: 6, fontWeight: 800, fontSize: '1rem', textDecoration: 'none' }}>
