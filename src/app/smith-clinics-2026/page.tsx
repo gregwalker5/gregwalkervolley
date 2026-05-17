@@ -79,7 +79,7 @@ export default function SmithClinics() {
           </div>
 
           {/* Price + value */}
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24, marginBottom: 32 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))', gap: 24, marginBottom: 32 }}>
 
             <div style={{ background: '#0C1B2A', borderRadius: 12, padding: '28px', border: '2px solid #D4A843' }}>
               <div style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: '#D4A843', marginBottom: 12 }}>Pricing</div>

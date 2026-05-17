@@ -50,7 +50,7 @@ export default function DeerfieldCamp() {
 
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '60px 28px' }}>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24, marginBottom: 32 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))', gap: 24, marginBottom: 32 }}>
 
             {/* Schedule */}
             <div style={{ background: '#fff', borderRadius: 12, border: '1px solid #E5E1DC', overflow: 'hidden' }}>

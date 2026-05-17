@@ -52,7 +52,7 @@ export default function GreenHillCamp() {
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '60px 28px' }}>
 
           {/* What to expect + Pricing */}
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24, marginBottom: 32 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))', gap: 24, marginBottom: 32 }}>
 
             <div style={{ background: '#fff', borderRadius: 12, border: '1px solid #E5E1DC', overflow: 'hidden' }}>
               <div style={{ background: '#0C1B2A', padding: '20px 28px' }}>

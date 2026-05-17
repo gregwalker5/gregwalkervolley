@@ -52,30 +52,25 @@ export default function PricingTiers({ basePrice = 325, smithClinics = false }: 
         borderRadius: 10,
         padding: '14px 18px',
         marginBottom: 16,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        flexWrap: 'wrap',
-        gap: 10,
       }}>
-        <div>
-          <div style={{ fontWeight: 800, fontSize: '1rem', color: navy }}>
-            {TIERS[currentTier].badge} — Register now for <span style={{ color: gold }}>${currentPrice}</span>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8, flexWrap: 'nowrap' }}>
+          <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2rem', color: gold, lineHeight: 1, flexShrink: 0 }}>
+            ${currentPrice}
           </div>
-          {daysLeft !== null && daysLeft > 0 && (
-            <div style={{ fontSize: '.82rem', color: '#6B6560', marginTop: 3 }}>
-              Price increases to <strong>${nextPrice}</strong> in <strong>{daysLeft} day{daysLeft !== 1 ? 's' : ''}</strong>
-            </div>
-          )}
-          {daysLeft === 0 && (
-            <div style={{ fontSize: '.82rem', color: '#dc2626', marginTop: 3, fontWeight: 700 }}>
-              ⚠️ Price increases to ${nextPrice} tomorrow!
-            </div>
-          )}
+          <div style={{ fontSize: '.82rem', fontWeight: 700, color: navy, textAlign: 'right' }}>
+            {TIERS[currentTier].badge}
+          </div>
         </div>
-        <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2.4rem', color: gold, lineHeight: 1 }}>
-          ${currentPrice}
-        </div>
+        {daysLeft !== null && daysLeft > 0 && (
+          <div style={{ fontSize: '.78rem', color: '#6B6560', marginTop: 6 }}>
+            Price increases to <strong>${nextPrice}</strong> in <strong>{daysLeft} day{daysLeft !== 1 ? 's' : ''}</strong>
+          </div>
+        )}
+        {daysLeft === 0 && (
+          <div style={{ fontSize: '.78rem', color: '#dc2626', marginTop: 6, fontWeight: 700 }}>
+            ⚠️ Price increases to ${nextPrice} tomorrow!
+          </div>
+        )}
       </div>
 
       {/* Tier table */}
@@ -102,11 +97,11 @@ export default function PricingTiers({ basePrice = 325, smithClinics = false }: 
               background: isActive ? 'rgba(212,168,67,.06)' : isPast ? '#FAFAFA' : 'transparent',
               opacity: isPast ? 0.5 : 1,
             }}>
-              <div style={{ flex: 1 }}>
-                <span style={{ fontWeight: isActive ? 700 : 500, color: isPast ? '#9A958E' : navy, fontSize: '.88rem' }}>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ fontWeight: isActive ? 700 : 500, color: isPast ? '#9A958E' : navy, fontSize: '.88rem' }}>
                   {tier.label}
-                </span>
-                <span style={{ color: '#9A958E', fontSize: '.82rem', marginLeft: 10 }}>{tier.window}</span>
+                </div>
+                <div style={{ color: '#9A958E', fontSize: '.76rem', marginTop: 1 }}>{tier.window}</div>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                 {isActive && (

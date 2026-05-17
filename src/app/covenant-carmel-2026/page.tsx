@@ -53,7 +53,7 @@ export default function CovenantCarmelCamp() {
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '60px 28px' }}>
 
           {/* Schedule + Price side by side */}
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24, marginBottom: 32 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))', gap: 24, marginBottom: 32 }}>
 
             {/* Schedule */}
             <div style={{ background: '#fff', borderRadius: 12, border: '1px solid #E5E1DC', overflow: 'hidden' }}>
@@ -116,7 +116,7 @@ export default function CovenantCarmelCamp() {
           {/* Locations */}
           <div style={{ background: '#fff', borderRadius: 12, border: '1px solid #E5E1DC', padding: '28px', marginBottom: 32 }}>
             <div style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: '#B8962E', marginBottom: 16 }}>Camp Locations</div>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))', gap: 20 }}>
               <div style={{ padding: '18px', background: '#F0EDE8', borderRadius: 10, border: '1px solid #E5E1DC' }}>
                 <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '1.3rem', color: '#0C1B2A', marginBottom: 4 }}>Covenant Day School</div>
                 <div style={{ color: '#9A958E', fontSize: '.85rem', marginBottom: 8 }}>📍 Matthews, NC · Varsity (Days 2 & 3)</div>
