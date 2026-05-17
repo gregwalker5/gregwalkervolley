@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 import RegFoxButton from '@/components/RegFoxButton';
+import CampValueComparison from '@/components/CampValueComparison';
 
 export default function DeerfieldCamp() {
   useEffect(() => {
@@ -111,6 +112,20 @@ export default function DeerfieldCamp() {
               </a>
             </div>
           </div>
+
+          <CampValueComparison
+            market="Western Massachusetts"
+            gwvHours="9 AM – 4 PM"
+            gwvDays="4 days"
+            gwvPrice="$325"
+            gwvPerHour="$13.54/hr"
+            competitors={[
+              { name: 'Nike VB Camp – Smith College', hours: '9 AM – 4 PM', days: '5 days', price: '$795+', perHour: '~$26.50/hr' },
+              { name: 'Five Star VB Camp (NE)', hours: '9 AM – 4 PM', days: '4 days', price: '$450', perHour: '~$18.75/hr' },
+              { name: 'New England VB Academy', hours: '9 AM – 1 PM', days: '4 days', price: '$350', perHour: '~$21.90/hr' },
+            ]}
+            note="Deerfield athletes get a Team USA + NCAA Head Coach on their own campus for a fraction of regional camp prices."
+          />
 
           {/* About Greg */}
           <div style={{ background: 'linear-gradient(135deg, #0C1B2A, #1E3A5F)', borderRadius: 12, padding: '32px', textAlign: 'center', marginBottom: 40 }}>

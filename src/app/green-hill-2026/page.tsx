@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 import RegFoxButton from '@/components/RegFoxButton';
+import CampValueComparison from '@/components/CampValueComparison';
 
 export default function GreenHillCamp() {
   useEffect(() => {
@@ -121,6 +122,20 @@ export default function GreenHillCamp() {
               ))}
             </div>
           </div>
+
+          <CampValueComparison
+            market="Nashville / Middle Tennessee"
+            gwvHours="9 AM – 4 PM"
+            gwvDays="4 days"
+            gwvPrice="$325"
+            gwvPerHour="$13.54/hr"
+            competitors={[
+              { name: 'Tennessee Volleyball Academy', hours: '9 AM – 4 PM', days: '3 days', price: '~$350', perHour: '~$16.67/hr' },
+              { name: 'Nike VB Camp (Nashville area)', hours: '9 AM – 4 PM', days: '4 days', price: '$399', perHour: '~$16.60/hr' },
+              { name: 'Local Club Skills Camp', hours: '9 AM – 12 PM', days: '3 days', price: '~$200', perHour: '~$22/hr' },
+            ]}
+            note="Green Hill athletes train in their own gym with a Team USA and NCAA Head Coach — no travel, no hotels."
+          />
 
           {/* INTEREST REGISTRATION FORM */}
           <div id="register" style={{ scrollMarginTop: 80 }}>

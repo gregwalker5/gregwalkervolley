@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 import RegFoxButton from '@/components/RegFoxButton';
+import CampValueComparison from '@/components/CampValueComparison';
 
 export default function CovenantCarmelCamp() {
   useEffect(() => {
@@ -126,6 +127,20 @@ export default function CovenantCarmelCamp() {
               </div>
             </div>
           </div>
+
+          <CampValueComparison
+            market="Charlotte / Matthews, NC"
+            gwvHours="9 AM – 4 PM"
+            gwvDays="3 days"
+            gwvPrice="$325"
+            gwvPerHour="$15.48/hr"
+            competitors={[
+              { name: 'CUVC Skill Camp', hours: '9 AM – 12 PM', days: '1 day', price: '~$150', perHour: '~$50/hr' },
+              { name: 'CUVC All-Skills Camp', hours: '9 AM – 12 PM', days: '3 days', price: '~$275', perHour: '~$30/hr' },
+              { name: 'Nike VB Camp (area school)', hours: '9 AM – 4 PM', days: '4 days', price: '$399', perHour: '~$16.60/hr' },
+            ]}
+            note="CUVC = Carolina Union Volleyball Club (Matthews, NC). Prices from public registration pages."
+          />
 
           {/* About Greg */}
           <div style={{ background: 'linear-gradient(135deg, #0C1B2A, #1E3A5F)', borderRadius: 12, padding: '32px', textAlign: 'center', marginBottom: 40 }}>

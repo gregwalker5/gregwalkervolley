@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 import RegFoxButton from '@/components/RegFoxButton';
+import CampValueComparison from '@/components/CampValueComparison';
 
 export default function SmithClinics() {
   useEffect(() => {
@@ -125,6 +126,20 @@ export default function SmithClinics() {
               ))}
             </div>
           </div>
+
+          <CampValueComparison
+            market="Western Massachusetts"
+            gwvHours="9 AM – 12 PM"
+            gwvDays="4 Sundays"
+            gwvPrice="$100"
+            gwvPerHour="$8.33/hr"
+            competitors={[
+              { name: 'Local Club Skills Session', hours: '1.5 hrs', days: '1 session', price: '$50–75', perHour: '~$33–50/hr' },
+              { name: 'Nike VB Camp – Smith College', hours: '9 AM – 4 PM', days: '5 days', price: '$795+', perHour: '~$26.50/hr' },
+              { name: 'Private Lessons (area coaches)', hours: '1 hr', days: 'per lesson', price: '$75–150', perHour: '$75–150/hr' },
+            ]}
+            note="4 Sunday clinics at Smith College courts — coached by the NCAA Head Coach who trains here every day."
+          />
 
           {/* Location */}
           <div style={{ background: 'linear-gradient(135deg, #0C1B2A, #1E3A5F)', borderRadius: 12, padding: '28px 32px', display: 'flex', gap: 32, alignItems: 'center', flexWrap: 'wrap', marginBottom: 40 }}>

@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 import RegFoxButton from '@/components/RegFoxButton';
+import CampValueComparison from '@/components/CampValueComparison';
 
 export default function BishopVerotCamp() {
   useEffect(() => {
@@ -113,6 +114,21 @@ export default function BishopVerotCamp() {
               </a>
             </div>
           </div>
+
+          <CampValueComparison
+            market="Fort Myers, FL"
+            gwvHours="9 AM – 4 PM"
+            gwvDays="3 days"
+            gwvPrice="$325"
+            gwvPerHour="$15.48/hr"
+            competitors={[
+              { name: 'Florida Conquer VB (half day)', hours: '8 AM – 12 PM', days: '5 days', price: '~$250', perHour: '~$10/hr' },
+              { name: 'Florida Conquer VB (full day)', hours: '8 AM – 5 PM', days: '5 days', price: '~$400', perHour: '~$11/hr' },
+              { name: 'FGVA (Florida Gulfside)', hours: '9 AM – 4 PM', days: '4 days', price: '~$350+', perHour: '~$14.50+/hr' },
+              { name: 'Nike VB Camp (SW Florida)', hours: '9 AM – 4 PM', days: '4 days', price: '$399', perHour: '~$16.60/hr' },
+            ]}
+            note="Prices from public registration pages."
+          />
 
           {/* About Greg */}
           <div style={{ background: 'linear-gradient(135deg, #0C1B2A, #1E3A5F)', borderRadius: 12, padding: '32px', textAlign: 'center', marginBottom: 40 }}>
