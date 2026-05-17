@@ -72,7 +72,7 @@ export default function WaiverPage() {
           <Section title="Parties to This Agreement" number="1">
             <P>This Participant Waiver, Release of Liability, Assumption of Risk, Indemnification, Medical Authorization, and Consent Agreement (the &ldquo;Agreement&rdquo;) is entered into by and among:</P>
             <ul style={{ paddingLeft: 20, margin: '0 0 12px' }}>
-              <Li>Creative Performance Consulting LLC d/b/a Greg Walker Volley (&ldquo;CPC&rdquo; or &ldquo;GWV&rdquo;), and its parent G. Walker &amp; Co Ventures LLC, together with their respective owners, officers, members, managers, employees, independent contractors, coaches, staff, agents, representatives, volunteers, successors, and assigns;</Li>
+              <Li>Creative Performance Consulting LLC d/b/a Greg Walker Volley (&ldquo;CPC&rdquo; or &ldquo;GWV&rdquo;), together with its owners, officers, members, managers, employees, independent contractors, coaches, staff, agents, representatives, volunteers, successors, and assigns;</Li>
               <Li>Greg Walker, individually and in his professional capacity;</Li>
               <Li>Any camp coaches, assistant coaches, clinicians, trainers, contractors, volunteers, or support staff working with or on behalf of GWV or CPC;</Li>
               <Li>Any host school, college, gymnasium, athletic facility, court provider, site owner, site operator, property owner, or affiliated organization where the Activity occurs (each a &ldquo;Host Facility&rdquo;); and</Li>
