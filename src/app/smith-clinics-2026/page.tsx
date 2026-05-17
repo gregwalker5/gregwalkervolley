@@ -111,7 +111,7 @@ export default function SmithClinics() {
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
               {[
-                { icon: '🏛️', title: 'Smith College Courts', body: 'Train in the same facility where Coach Walker prepares his NCAA team. Air-conditioned, full regulation courts.' },
+                { icon: '🏛️', title: 'Smith College Courts', body: 'Train in the same facility where Coach Walker prepares his NCAA team. Full regulation courts.' },
                 { icon: '👤', title: 'Head Coach at Every Session', body: 'Not assistants. Greg Walker runs every drill, teaches every rep. The same coaching his NCAA athletes get.' },
                 { icon: '🎯', title: 'High School Focus', body: 'Sessions are designed specifically for high school athletes — skill work, system understanding, and college prep.' },
                 { icon: '📅', title: 'Flexible Format', body: '3 hours every Sunday morning. Train hard, then have the rest of your weekend. Perfect for busy summer schedules.' },
