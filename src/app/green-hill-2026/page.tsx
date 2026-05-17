@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import RegFoxButton from '@/components/RegFoxButton';
+import RegistrationForm from '@/components/RegistrationForm';
 import CampValueComparison from '@/components/CampValueComparison';
 import PricingTiers from '@/components/PricingTiers';
 
@@ -149,10 +149,12 @@ export default function GreenHillCamp() {
                 Dates TBA · Nashville, TN · Green Hill High School
               </p>
             </div>
-            <RegFoxButton
-              regfoxUrl="https://app.regfox.com/preview/5ef55474201540219c6f4f7f2152f99e"
+            <RegistrationForm
+              campId="green-hill"
               campName="Green Hill HS Camp 2026"
+              basePrice={325}
               status="coming-soon"
+              extraNote="Camp dates are still being finalized — registering now reserves your spot and you'll be the first to receive the confirmed schedule."
             />
           </div>
         </div>

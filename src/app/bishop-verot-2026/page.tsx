@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import RegFoxButton from '@/components/RegFoxButton';
+import RegistrationForm from '@/components/RegistrationForm';
 import CampValueComparison from '@/components/CampValueComparison';
 import PricingTiers from '@/components/PricingTiers';
 
@@ -156,9 +156,11 @@ export default function BishopVerotCamp() {
                 Secure your spot — July 29–31, 2026 · Fort Myers, FL
               </p>
             </div>
-            <RegFoxButton
-              regfoxUrl="https://app.regfox.com/preview/d081e82478e649c4a2ff1ae66a9974d0"
+            <RegistrationForm
+              campId="bishop-verot"
               campName="Bishop Verot HS Camp 2026"
+              basePrice={325}
+              dates="July 29-31, 2026"
               status="open"
             />
           </div>

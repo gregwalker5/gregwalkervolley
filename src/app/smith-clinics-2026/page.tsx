@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import RegFoxButton from '@/components/RegFoxButton';
+import RegistrationForm from '@/components/RegistrationForm';
 import CampValueComparison from '@/components/CampValueComparison';
 import PricingTiers from '@/components/PricingTiers';
 
@@ -167,9 +167,11 @@ export default function SmithClinics() {
                 Aug 2, 9, 16 & 23 · Smith College · Northampton, MA · $100 all 4 sessions
               </p>
             </div>
-            <RegFoxButton
-              regfoxUrl="https://app.regfox.com/preview/df2c394ed77d42dd970125fab6b33e26"
+            <RegistrationForm
+              campId="smith-clinics"
               campName="Smith Sunday Clinics 2026"
+              basePrice={100}
+              dates="Aug 2, 9, 16, 23, 2026"
               status="open"
             />
           </div>

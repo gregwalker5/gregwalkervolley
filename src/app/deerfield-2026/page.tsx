@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import RegFoxButton from '@/components/RegFoxButton';
+import RegistrationForm from '@/components/RegistrationForm';
 import CampValueComparison from '@/components/CampValueComparison';
 import PricingTiers from '@/components/PricingTiers';
 
@@ -153,9 +153,11 @@ export default function DeerfieldCamp() {
                 August 26–29, 2026 · Deerfield Academy, MA
               </p>
             </div>
-            <RegFoxButton
-              regfoxUrl="https://app.regfox.com/preview/916915888b674f74a3c31abba0e5d916"
+            <RegistrationForm
+              campId="deerfield"
               campName="Deerfield Academy Camp 2026"
+              basePrice={325}
+              dates="August 26-29, 2026"
               status="open"
             />
           </div>

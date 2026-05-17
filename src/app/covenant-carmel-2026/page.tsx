@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import RegFoxButton from '@/components/RegFoxButton';
+import RegistrationForm from '@/components/RegistrationForm';
 import CampValueComparison from '@/components/CampValueComparison';
 import PricingTiers from '@/components/PricingTiers';
 
@@ -168,10 +168,13 @@ export default function CovenantCarmelCamp() {
                 August 3–5, 2026 · Matthews, NC (Covenant Day + Carmel Christian)
               </p>
             </div>
-            <RegFoxButton
-              regfoxUrl="https://app.regfox.com/preview/d2a86a140ce648dd8850519c258252f3"
+            <RegistrationForm
+              campId="covenant-carmel"
               campName="Covenant Day / Carmel Christian Camp 2026"
+              basePrice={325}
+              dates="August 3-5, 2026"
               status="filling"
+              extraNote="This camp serves BOTH Covenant Day School AND Carmel Christian School. Varsity trains at Covenant Day; JV trains at Carmel Christian on Days 2 & 3."
             />
           </div>
         </div>
