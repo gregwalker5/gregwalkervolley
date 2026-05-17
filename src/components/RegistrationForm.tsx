@@ -1,6 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import WaiverContent from './WaiverContent';
 
 interface RegistrationFormProps {
   campId: string;
@@ -40,11 +41,7 @@ function getCurrentTierIndex(now: Date = new Date()): number {
   return PRICING_TIERS.length - 1;
 }
 
-const WAIVER_TEXT = `CREATIVE PERFORMANCE CONSULTING LLC d/b/a GREG WALKER VOLLEY — 2026 PARTICIPANT WAIVER.
 
-By typing your name below you agree to the full terms at gregwalkervolley.com/waiver including: voluntary assumption of all risks (including DEATH), release of liability including negligence, covenant not to sue, indemnification, HIPAA medical authorization, arbitration and jury trial waiver, and governing law.
-
-This electronic signature is legally binding.`;
 
 interface FormState {
   camperFirstName: string;
@@ -657,32 +654,29 @@ export default function RegistrationForm({
             Review and sign the participant waiver, then submit. Payment instructions follow.
           </p>
 
-          <div style={labelStyle}>Participant Waiver *</div>
+          <div style={{ ...labelStyle, marginBottom: 6 }}>Participant Waiver * — scroll to read the full agreement before signing</div>
           <div
             style={{
-              height: 200,
-              overflowY: 'auto',
+              height: 480,
+              overflowY: 'scroll',
               background: cream,
               border: `1.5px solid ${lightGray}`,
               borderRadius: 8,
-              padding: 16,
-              fontSize: '0.85rem',
-              lineHeight: 1.6,
-              color: '#3a3a3a',
-              whiteSpace: 'pre-line',
-              marginBottom: 12,
+              padding: '16px 18px',
+              marginBottom: 6,
             }}
           >
-            {WAIVER_TEXT}
+            <WaiverContent />
           </div>
-          <div style={{ marginBottom: 18, fontSize: '0.82rem' }}>
+          <div style={{ marginBottom: 18, fontSize: '0.78rem', color: warmGray }}>
+            Full document also available at{' '}
             <a
               href="/waiver"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: goldDim, fontWeight: 600 }}
             >
-              Read the full waiver at gregwalkervolley.com/waiver →
+              gregwalkervolley.com/waiver
             </a>
           </div>
 
@@ -717,16 +711,7 @@ export default function RegistrationForm({
               style={{ marginTop: 3, accentColor: gold, width: 18, height: 18, flexShrink: 0 }}
             />
             <span style={{ fontSize: '0.9rem', lineHeight: 1.5, color: navy }}>
-              I have read the waiver at{' '}
-              <a
-                href="/waiver"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ color: goldDim, fontWeight: 600 }}
-              >
-                gregwalkervolley.com/waiver
-              </a>{' '}
-              and agree to all terms.
+              I have read the full participant waiver above and agree to all terms, including the release of liability, assumption of risk, indemnification, medical authorization, and arbitration clause.
             </span>
           </label>
 
