@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import RegFoxButton from '@/components/RegFoxButton';
 import CampValueComparison from '@/components/CampValueComparison';
+import PricingTiers from '@/components/PricingTiers';
 
 export default function GreenHillCamp() {
   useEffect(() => {
@@ -82,8 +83,9 @@ export default function GreenHillCamp() {
 
             <div style={{ background: '#0C1B2A', borderRadius: 12, padding: '28px', border: '2px solid rgba(212,168,67,.4)' }}>
               <div style={{ fontSize: '.7rem', fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: '#D4A843', marginBottom: 12 }}>Pricing</div>
-              <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '5rem', color: '#D4A843', lineHeight: 1 }}>$325</div>
+              <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '5rem', color: '#D4A843', lineHeight: 1 }}>$325+</div>
               <div style={{ color: '#C8C4BE', fontSize: '.9rem', marginTop: 6 }}>per athlete · 4-day camp</div>
+              <div style={{ marginTop: 16 }}><PricingTiers /></div>
               <div style={{ display: 'inline-block', background: 'rgba(212,168,67,.15)', color: '#E8C96A', padding: '6px 14px', borderRadius: 50, fontSize: '.8rem', fontWeight: 600, marginTop: 14 }}>
                 28 hours · $13.54/hr
               </div>
