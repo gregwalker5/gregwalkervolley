@@ -141,7 +141,7 @@ export default function WaiverPage() {
 
           <Section title="Insurance, Primary Coverage & Subrogation Waiver" number="10">
             <P>I represent that the Participant has health insurance covering injury or illness arising from athletic activity, and I agree that the Participant&apos;s own health, medical, accident, disability, life, or other personal insurance shall serve as the PRIMARY source of coverage for any injury or loss arising out of participation in the Activity. The Released Parties&apos; insurance, if any, is excess and contingent only.</P>
-            <P>Any claim must be tendered in writing to CPC at 40 Grant Ave., Northampton, MA 01060 within thirty (30) days of the event giving rise to the claim.</P>
+            <P>Any claim must be tendered in writing to CPC at the address on file within thirty (30) days of the event giving rise to the claim.</P>
           </Section>
 
           <Section title="Concussion & Head Injury Acknowledgment" number="12">
@@ -201,7 +201,7 @@ export default function WaiverPage() {
             <strong style={{ color: '#4A4540' }}>Full Document:</strong> This page contains the key operative sections of the 2026 GWV Participant Waiver v2.0. The complete document including all state-specific addenda, Annex A (Medical &amp; Emergency Form), and execution provisions is presented during RegFox registration. For a copy of the full agreement, contact{' '}
             <a href="mailto:gregwalkervolley@gmail.com" style={{ color: '#D4A843' }}>gregwalkervolley@gmail.com</a>.
             <br /><br />
-            Creative Performance Consulting LLC · 40 Grant Ave., Northampton, MA 01060
+            Creative Performance Consulting LLC · Northampton, MA
           </div>
         </div>
 
