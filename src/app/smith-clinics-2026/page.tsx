@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import RegistrationForm from '@/components/RegistrationForm';
+
 import CampValueComparison from '@/components/CampValueComparison';
 import PricingTiers from '@/components/PricingTiers';
 
@@ -157,23 +157,40 @@ export default function SmithClinics() {
             </div>
           </div>
 
-          {/* REGISTRATION FORM */}
+          {/* REGISTRATION */}
           <div id="register" style={{ scrollMarginTop: 80 }}>
             <div style={{ textAlign: 'center', marginBottom: 32 }}>
               <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2.6rem', color: '#0C1B2A', marginBottom: 8 }}>
                 Register for Sunday Clinics
               </h2>
               <p style={{ color: '#9A958E', fontSize: '.95rem' }}>
-                Aug 2, 9, 16 & 23 · Smith College · Northampton, MA · $100 all 4 sessions
+                Aug 2, 9, 16 & 23 · Smith College · Northampton, MA
               </p>
             </div>
-            <RegistrationForm
-              campId="smith-clinics"
-              campName="Smith Sunday Clinics 2026"
-              basePrice={100}
-              dates="Aug 2, 9, 16, 23, 2026"
-              status="open"
-            />
+            <div style={{ textAlign: 'center', maxWidth: 560, margin: '0 auto', background: '#fff', border: '2px solid rgba(212,168,67,.3)', borderRadius: 12, padding: '40px 32px' }}>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(16,185,129,.1)', border: '1px solid rgba(16,185,129,.3)', color: '#059669', padding: '6px 16px', borderRadius: 50, fontSize: '.75rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase' as const, marginBottom: 24 }}>
+                <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#10b981', display: 'inline-block' }} />
+                Registration Open
+              </div>
+              <div style={{ marginBottom: 12 }}>
+                <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '3rem', color: '#0C1B2A', lineHeight: 1 }}>$100</div>
+                <div style={{ color: '#9A958E', fontSize: '.85rem', marginTop: 4 }}>per clinic session · select date at checkout</div>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center', gap: 8, flexWrap: 'wrap', marginBottom: 24 }}>
+                {['Aug 2', 'Aug 9', 'Aug 16', 'Aug 23'].map(d => (
+                  <span key={d} style={{ background: '#F0EDE8', color: '#4A4540', padding: '4px 12px', borderRadius: 50, fontSize: '.8rem', fontWeight: 600 }}>{d}</span>
+                ))}
+              </div>
+              <a
+                href="https://gregwalkervolley.regfox.com/2026-gwv-sunday-clinics-smith-college-northampton-ma"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ display: 'inline-flex', alignItems: 'center', gap: 10, background: '#D4A843', color: '#0C1B2A', padding: '16px 40px', borderRadius: 6, fontWeight: 800, fontSize: '1.05rem', textDecoration: 'none', letterSpacing: '.02em' }}
+              >
+                Register Now →
+              </a>
+              <p style={{ marginTop: 16, color: '#9A958E', fontSize: '.8rem' }}>Secure card payment · Powered by RegFox</p>
+            </div>
           </div>
         </div>
 
