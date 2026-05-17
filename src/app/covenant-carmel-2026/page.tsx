@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import RegistrationForm from '@/components/RegistrationForm';
+
 import CampValueComparison from '@/components/CampValueComparison';
 import PricingTiers from '@/components/PricingTiers';
 
@@ -158,24 +158,53 @@ export default function CovenantCarmelCamp() {
             </div>
           </div>
 
-          {/* REGISTRATION FORM */}
+          {/* REGISTRATION */}
           <div id="register" style={{ scrollMarginTop: 80 }}>
             <div style={{ textAlign: 'center', marginBottom: 32 }}>
               <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2.6rem', color: '#0C1B2A', marginBottom: 8 }}>
                 Register for Camp
               </h2>
               <p style={{ color: '#9A958E', fontSize: '.95rem' }}>
-                August 3–5, 2026 · Matthews, NC (Covenant Day + Carmel Christian)
+                Matthews, NC · Choose your school below
               </p>
             </div>
-            <RegistrationForm
-              campId="covenant-carmel"
-              campName="Covenant Day / Carmel Christian Camp 2026"
-              basePrice={325}
-              dates="August 3-5, 2026"
-              status="filling"
-              extraNote="This camp serves BOTH Covenant Day School AND Carmel Christian School. Varsity trains at Covenant Day; JV trains at Carmel Christian on Days 2 & 3."
-            />
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: 20, maxWidth: 720, margin: '0 auto' }}>
+              {/* Covenant Day */}
+              <div style={{ textAlign: 'center', background: '#fff', border: '2px solid rgba(212,168,67,.3)', borderRadius: 12, padding: '32px 24px' }}>
+                <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '1.3rem', color: '#0C1B2A', marginBottom: 4 }}>Covenant Day School</div>
+                <div style={{ color: '#9A958E', fontSize: '.82rem', marginBottom: 16 }}>Varsity · Matthews, NC</div>
+                <div style={{ display: 'inline-flex', alignItems: 'center', gap: 6, background: 'rgba(239,68,68,.08)', border: '1px solid rgba(239,68,68,.2)', color: '#dc2626', padding: '4px 12px', borderRadius: 50, fontSize: '.72rem', fontWeight: 700, textTransform: 'uppercase' as const, marginBottom: 16 }}>
+                  Filling Up
+                </div>
+                <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2.4rem', color: '#0C1B2A', lineHeight: 1, marginBottom: 20 }}>$325</div>
+                <a
+                  href="https://gregwalkervolley.regfox.com/2026-greg-walker-volleyball-camp-matthews-nc-covenant-day"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ display: 'inline-block', background: '#D4A843', color: '#0C1B2A', padding: '14px 28px', borderRadius: 6, fontWeight: 800, fontSize: '.95rem', textDecoration: 'none' }}
+                >
+                  Register →
+                </a>
+              </div>
+              {/* Carmel Christian */}
+              <div style={{ textAlign: 'center', background: '#fff', border: '2px solid rgba(212,168,67,.3)', borderRadius: 12, padding: '32px 24px' }}>
+                <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '1.3rem', color: '#0C1B2A', marginBottom: 4 }}>Carmel Christian School</div>
+                <div style={{ color: '#9A958E', fontSize: '.82rem', marginBottom: 16 }}>JV/All Levels · Matthews, NC</div>
+                <div style={{ display: 'inline-flex', alignItems: 'center', gap: 6, background: 'rgba(16,185,129,.1)', border: '1px solid rgba(16,185,129,.3)', color: '#059669', padding: '4px 12px', borderRadius: 50, fontSize: '.72rem', fontWeight: 700, textTransform: 'uppercase' as const, marginBottom: 16 }}>
+                  Open
+                </div>
+                <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2.4rem', color: '#0C1B2A', lineHeight: 1, marginBottom: 20 }}>$325</div>
+                <a
+                  href="https://gregwalkervolley.regfox.com/2026-greg-walker-volleyball-camp-matthews-nc-carmel-christian"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ display: 'inline-block', background: '#D4A843', color: '#0C1B2A', padding: '14px 28px', borderRadius: 6, fontWeight: 800, fontSize: '.95rem', textDecoration: 'none' }}
+                >
+                  Register →
+                </a>
+              </div>
+            </div>
+            <p style={{ textAlign: 'center', marginTop: 16, color: '#9A958E', fontSize: '.8rem' }}>Secure card payment · Powered by RegFox</p>
           </div>
         </div>
 

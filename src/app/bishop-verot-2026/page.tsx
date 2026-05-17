@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import RegistrationForm from '@/components/RegistrationForm';
+
 import CampValueComparison from '@/components/CampValueComparison';
 import PricingTiers from '@/components/PricingTiers';
 
@@ -146,23 +146,35 @@ export default function BishopVerotCamp() {
             </div>
           </div>
 
-          {/* REGISTRATION FORM */}
+          {/* REGISTRATION */}
           <div id="register" style={{ scrollMarginTop: 80 }}>
             <div style={{ textAlign: 'center', marginBottom: 32 }}>
               <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '2.6rem', color: '#0C1B2A', marginBottom: 8 }}>
                 Register for Camp
               </h2>
               <p style={{ color: '#9A958E', fontSize: '.95rem' }}>
-                Secure your spot — July 29–31, 2026 · Fort Myers, FL
+                Secure your spot · Fort Myers, FL
               </p>
             </div>
-            <RegistrationForm
-              campId="bishop-verot"
-              campName="Bishop Verot HS Camp 2026"
-              basePrice={325}
-              dates="July 29-31, 2026"
-              status="open"
-            />
+            <div style={{ textAlign: 'center', maxWidth: 560, margin: '0 auto', background: '#fff', border: '2px solid rgba(212,168,67,.3)', borderRadius: 12, padding: '40px 32px' }}>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(16,185,129,.1)', border: '1px solid rgba(16,185,129,.3)', color: '#059669', padding: '6px 16px', borderRadius: 50, fontSize: '.75rem', fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase' as const, marginBottom: 24 }}>
+                <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#10b981', display: 'inline-block' }} />
+                Registration Open
+              </div>
+              <div style={{ marginBottom: 20 }}>
+                <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '3rem', color: '#0C1B2A', lineHeight: 1 }}>$325</div>
+                <div style={{ color: '#9A958E', fontSize: '.85rem', marginTop: 4 }}>per camper · Bishop Verot HS, Fort Myers FL</div>
+              </div>
+              <a
+                href="https://gregwalkervolley.regfox.com/2026-greg-walker-volleyball-camp-fort-myers-fl"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ display: 'inline-flex', alignItems: 'center', gap: 10, background: '#D4A843', color: '#0C1B2A', padding: '16px 40px', borderRadius: 6, fontWeight: 800, fontSize: '1.05rem', textDecoration: 'none', letterSpacing: '.02em' }}
+              >
+                Register Now →
+              </a>
+              <p style={{ marginTop: 16, color: '#9A958E', fontSize: '.8rem' }}>Secure card payment · Powered by RegFox</p>
+            </div>
           </div>
         </div>
 
